@@ -28,6 +28,8 @@ jobs:
           node-version: 22
           cache: pnpm
 
+      - name: Allow @parcel/watcher build scripts
+        run: pnpm config set onlyBuiltDependencies "@parcel/watcher" --location=project
       - run: pnpm install
       - run: pnpm run build
 
