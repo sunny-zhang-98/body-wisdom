@@ -61,18 +61,27 @@ function CheckResultButton({
   )
 }
 
+const severityOptions = [
+  { level: 2, label: '轻度', desc: '早期损伤' },
+  { level: 3, label: '中度', desc: '中度损伤' },
+  { level: 4, label: '重度', desc: '重度损伤' },
+  { level: 5, label: '衰竭', desc: '衰竭' },
+]
+
 function SelfCheckItem({
   check,
   organId,
   index,
   currentResult,
+  damageLevel,
   onSetResult,
 }: {
   check: SelfCheck
   organId: string
   index: number
   currentResult: ResultType
-  onSetResult: (key: string, result: 'normal' | 'warning' | 'untested') => void
+  damageLevel?: number
+  onSetResult: (key: string, result: 'normal' | 'warning' | 'untested', damageLevel?: number) => void
 }) {
   const key = getCheckKey(organId, index)
 
@@ -121,6 +130,25 @@ function SelfCheckItem({
           label="未测"
         />
       </div>
+
+      {/* Severity selector when warning is active */}
+      {currentResult === 'warning' && (
+        <div className="severity-selector">
+          <span className="severity-selector-label">损伤程度：</span>
+          <div className="severity-options">
+            {severityOptions.map(opt => (
+              <button
+                key={opt.level}
+                className={`severity-btn${damageLevel === opt.level ? ' severity-btn--active' : ''}`}
+                onClick={() => onSetResult(key, 'warning', opt.level)}
+                title={opt.desc}
+              >
+                {opt.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -172,20 +200,34 @@ export default function SelfCheck() {
   const summary = getSelfCheckSummary(organsWithChecks, state.selfCheckResults)
   const pct = summary.total > 0 ? Math.round((summary.done / summary.total) * 100) : 0
 
-  function handleToggle(key: string, result: 'normal' | 'warning' | 'untested') {
+  function handleToggle(key: string, result: 'normal' | 'warning' | 'untested', damageLevel?: number) {
     const current = state.selfCheckResults[key]
     if (result === 'untested') {
       dispatch({ type: 'SET_SELF_CHECK_RESULT', key, result: 'untested' })
-    } else if (current?.result === result) {
+    } else if (current?.result === result && result !== 'warning') {
+      // Toggle off for normal (warning toggles severity instead)
+      dispatch({ type: 'SET_SELF_CHECK_RESULT', key, result: 'untested' })
+    } else if (result === 'warning' && current?.result === 'warning' && !damageLevel) {
+      // Clicking warning when already warning with no new level → toggle off
       dispatch({ type: 'SET_SELF_CHECK_RESULT', key, result: 'untested' })
     } else {
-      dispatch({ type: 'SET_SELF_CHECK_RESULT', key, result })
+      dispatch({
+        type: 'SET_SELF_CHECK_RESULT',
+        key,
+        result,
+        damageLevel: result === 'warning' ? (damageLevel ?? 3) : undefined,
+      })
     }
   }
 
   function getCurrentResult(organId: string, index: number): ResultType {
     const key = getCheckKey(organId, index)
     return state.selfCheckResults[key]?.result ?? 'untested'
+  }
+
+  function getCurrentDamageLevel(organId: string, index: number): number | undefined {
+    const key = getCheckKey(organId, index)
+    return state.selfCheckResults[key]?.damageLevel
   }
 
   function handleReset() {
@@ -343,6 +385,10 @@ export default function SelfCheck() {
         ⚠️ 自测结果仅作参考，不能替代专业医疗诊断。如有不适请及时就医。
       </div>
 
+      <div className="self-check-hint">
+        💡 标记「警示」时可选损伤程度。完成自检后前往「推荐」页查看个性化行为建议。
+      </div>
+
       {/* 按系统分组 */}
       {systems.map(system => {
         if (!shouldShowSystem(system.id)) return null
@@ -398,6 +444,7 @@ export default function SelfCheck() {
                         organId={organ.id}
                         index={i}
                         currentResult={getCurrentResult(organ.id, i)}
+                        damageLevel={getCurrentDamageLevel(organ.id, i)}
                         onSetResult={handleToggle}
                       />
                     )

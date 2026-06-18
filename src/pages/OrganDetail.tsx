@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom'
-import { getOrganById } from '../loaders/loadOrgans'
+import { getOrganById, getOrgans } from '../loaders/loadOrgans'
 import { getSystemById } from '../loaders/loadSystems'
 import { getBehaviorById } from '../loaders/loadBehaviors'
 import { getRelationsByOrgan } from '../loaders/loadRelations'
@@ -7,7 +7,7 @@ import { useAppState } from '../store/AppContext'
 import SelfCheckCard from '../components/SelfCheckCard'
 import BehaviorCard from '../components/BehaviorCard'
 import DisclaimerBanner from '../components/DisclaimerBanner'
-import { getOrganDamageColor } from '../utils/scoring'
+import { getOrganDamageColor, deriveAssessments } from '../utils/scoring'
 
 export default function OrganDetail() {
   const { organId } = useParams<{ organId: string }>()
@@ -24,7 +24,9 @@ export default function OrganDetail() {
   }
 
   const system = getSystemById(organ.systemId)
-  const assessment = state.assessments[organ.id]
+  const allOrgans = getOrgans()
+  const derivedAssessments = deriveAssessments(allOrgans, state.selfCheckResults)
+  const assessment = derivedAssessments[organ.id]
   const relations = getRelationsByOrgan(organ.id)
 
   // Split relations into beneficial and harmful

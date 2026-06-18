@@ -1,7 +1,8 @@
-import type { OrganAssessment, SelfCheckResult, AppState } from '../types'
+import type { OrganAssessment, SelfCheckResult, BehaviorMark, AppState } from '../types'
 
 const STORAGE_KEY = 'body-wisdom-state'
 const SELF_CHECK_KEY = 'body-wisdom-selfchecks'
+const BEHAVIOR_MARKS_KEY = 'body-wisdom-behavior-marks'
 const THEME_KEY = 'body-wisdom-theme'
 
 export function loadAssessments(): Record<string, OrganAssessment> {
@@ -56,6 +57,32 @@ export function clearSelfCheckResults() {
   }
 }
 
+export function loadBehaviorMarks(): Record<string, BehaviorMark> {
+  try {
+    const raw = localStorage.getItem(BEHAVIOR_MARKS_KEY)
+    if (!raw) return {}
+    return JSON.parse(raw) as Record<string, BehaviorMark>
+  } catch {
+    return {}
+  }
+}
+
+export function saveBehaviorMarks(marks: Record<string, BehaviorMark>) {
+  try {
+    localStorage.setItem(BEHAVIOR_MARKS_KEY, JSON.stringify(marks))
+  } catch {
+    // storage full or unavailable
+  }
+}
+
+export function clearBehaviorMarks() {
+  try {
+    localStorage.removeItem(BEHAVIOR_MARKS_KEY)
+  } catch {
+    // ignore
+  }
+}
+
 export function loadTheme(): 'light' | 'dark' {
   const saved = localStorage.getItem(THEME_KEY)
   if (saved === 'light' || saved === 'dark') return saved
@@ -75,6 +102,7 @@ export function loadState(): AppState {
   return {
     assessments: loadAssessments(),
     selfCheckResults: loadSelfCheckResults(),
+    behaviorMarks: loadBehaviorMarks(),
     theme: loadTheme(),
   }
 }

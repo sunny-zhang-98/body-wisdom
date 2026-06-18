@@ -1,10 +1,10 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { getBehaviorById } from '../loaders/loadBehaviors'
-import { getOrganById } from '../loaders/loadOrgans'
+import { getOrganById, getOrgans } from '../loaders/loadOrgans'
 import { getRelationsByBehavior } from '../loaders/loadRelations'
 import { useAppState } from '../store/AppContext'
 import DisclaimerBanner from '../components/DisclaimerBanner'
-import { getOrganDamageColor } from '../utils/scoring'
+import { getOrganDamageColor, deriveAssessments } from '../utils/scoring'
 
 export default function BehaviorDetail() {
   const { behaviorId } = useParams<{ behaviorId: string }>()
@@ -20,6 +20,8 @@ export default function BehaviorDetail() {
     )
   }
 
+  const allOrgans = getOrgans()
+  const derivedAssessments = deriveAssessments(allOrgans, state.selfCheckResults)
   const relations = getRelationsByBehavior(behavior.id)
 
   // Render impact level as stars
@@ -73,7 +75,7 @@ export default function BehaviorDetail() {
           <div className="list">
             {relations.map(rel => {
               const organ = getOrganById(rel.organId)
-              const assessment = state.assessments[rel.organId]
+              const assessment = derivedAssessments[rel.organId]
               if (!organ) return null
               return (
                 <div

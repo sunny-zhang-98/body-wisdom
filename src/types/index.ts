@@ -60,20 +60,30 @@ export interface OrganAssessment {
 
 export interface SelfCheckResult {
   result: 'normal' | 'warning' | 'untested'
+  damageLevel?: number  // 1-5, 仅在 result='warning' 时有效，用户选择的损伤程度
+  updatedAt: string
+}
+
+export type BehaviorMarkStatus = 'done' | 'attention'
+
+export interface BehaviorMark {
+  status: BehaviorMarkStatus
   updatedAt: string
 }
 
 export interface AppState {
   assessments: Record<string, OrganAssessment>
   selfCheckResults: Record<string, SelfCheckResult>
+  behaviorMarks: Record<string, BehaviorMark>  // keyed by behaviorId
   theme: 'light' | 'dark'
 }
 
 export type AppAction =
   | { type: 'SET_ASSESSMENT'; organId: string; level: number }
   | { type: 'RESET_ASSESSMENTS' }
-  | { type: 'SET_SELF_CHECK_RESULT'; key: string; result: 'normal' | 'warning' | 'untested' }
+  | { type: 'SET_SELF_CHECK_RESULT'; key: string; result: 'normal' | 'warning' | 'untested'; damageLevel?: number }
   | { type: 'RESET_SELF_CHECKS' }
+  | { type: 'MARK_BEHAVIOR'; behaviorId: string; status: BehaviorMarkStatus | null }
   | { type: 'SET_THEME'; theme: 'light' | 'dark' }
 
 export interface Recommendation {

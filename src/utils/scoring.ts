@@ -1,4 +1,4 @@
-import type { Organ, Behavior, Relation, Recommendation, OrganAssessment } from '../types'
+import type { Organ, Behavior, Relation, Recommendation, OrganAssessment, SelfCheckResult } from '../types'
 
 /**
  * Get color for organ damage level (0-5)
@@ -6,6 +6,48 @@ import type { Organ, Behavior, Relation, Recommendation, OrganAssessment } from 
 export function getOrganDamageColor(level: number): string {
   const colors = ['#52c41a', '#a0d911', '#faad14', '#fa8c16', '#ff4d4f', '#cf1322']
   return colors[level] ?? '#999'
+}
+
+/**
+ * Derive organ assessments from self-check results.
+ * - 正常 → damageLevel = 0 (healthy, skipped in scoring)
+ * - 警示 → damageLevel = user-selected level (default 3), or inferred from multiple checks (max)
+ * - 未测 → organ not assessed, skipped
+ */
+export function deriveAssessments(
+  organs: Organ[],
+  selfCheckResults: Record<string, SelfCheckResult>,
+): Record<string, OrganAssessment> {
+  const assessments: Record<string, OrganAssessment> = {}
+  const now = new Date().toISOString()
+
+  for (const organ of organs) {
+    let maxLevel = 0
+    let hasWarning = false
+    let hasAny = false
+
+    for (let i = 0; i < organ.selfChecks.length; i++) {
+      const key = `${organ.id}@${i}`
+      const result = selfCheckResults[key]
+      if (!result) continue
+      hasAny = true
+      if (result.result === 'warning') {
+        hasWarning = true
+        const level = result.damageLevel ?? 3 // default to moderate
+        if (level > maxLevel) maxLevel = level
+      }
+    }
+
+    if (!hasAny) continue // not assessed
+
+    if (hasWarning) {
+      assessments[organ.id] = { damageLevel: maxLevel, updatedAt: now }
+    } else {
+      assessments[organ.id] = { damageLevel: 0, updatedAt: now }
+    }
+  }
+
+  return assessments
 }
 
 /**

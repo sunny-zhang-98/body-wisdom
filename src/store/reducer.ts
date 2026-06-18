@@ -31,12 +31,28 @@ export function appReducer(state: AppState, action: AppAction): AppState {
           ...state.selfCheckResults,
           [action.key]: {
             result: action.result,
+            damageLevel: action.damageLevel,
             updatedAt: new Date().toISOString(),
           },
         },
       }
     case 'RESET_SELF_CHECKS':
       return { ...state, selfCheckResults: {} }
+    case 'MARK_BEHAVIOR':
+      if (action.status === null) {
+        const { [action.behaviorId]: _, ...rest } = state.behaviorMarks
+        return { ...state, behaviorMarks: rest }
+      }
+      return {
+        ...state,
+        behaviorMarks: {
+          ...state.behaviorMarks,
+          [action.behaviorId]: {
+            status: action.status,
+            updatedAt: new Date().toISOString(),
+          },
+        },
+      }
     case 'SET_THEME':
       return { ...state, theme: action.theme }
     default:

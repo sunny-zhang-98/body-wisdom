@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useAppState } from '../store/AppContext'
 import { getSystems } from '../loaders/loadSystems'
 import { getOrgansBySystem, getOrgans } from '../loaders/loadOrgans'
-import { getOrganDamageColor } from '../utils/scoring'
+import { getOrganDamageColor, deriveAssessments } from '../utils/scoring'
 
 const damageLabels = ['健康', '亚健康', '早期', '中度', '重度', '衰竭']
 
@@ -11,7 +11,7 @@ export default function Home() {
   const { state, dispatch } = useAppState()
   const systems = getSystems()
   const allOrgans = getOrgans()
-  const assessments = state.assessments
+  const assessments = deriveAssessments(allOrgans, state.selfCheckResults)
   const assessedCount = Object.keys(assessments).length
   const theme = state.theme
 
@@ -60,7 +60,7 @@ export default function Home() {
           <div style={{ fontSize: 12, color: 'var(--color-text-secondary)' }}>人体系统</div>
         </div>
         <div className="card" style={{ textAlign: 'center', padding: '12px 8px' }}
-          onClick={() => navigate('/assessment')}
+          onClick={() => navigate('/self-check')}
         >
           <div style={{ fontSize: 28 }}>{assessedCount}</div>
           <div style={{ fontSize: 12, color: 'var(--color-text-secondary)' }}>已评估</div>
@@ -75,8 +75,8 @@ export default function Home() {
 
       {/* Quick actions */}
       <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
-        <button className="btn btn-primary btn-block" onClick={() => navigate('/assessment')}>
-          📊 开始评估
+        <button className="btn btn-primary btn-block" onClick={() => navigate('/self-check')}>
+          🩺 开始自检
         </button>
         {assessedCount > 0 && (
           <button className="btn btn-outline" onClick={() => navigate('/recommendations')}
