@@ -1,0 +1,8 @@
+{
+  "id": "胰腺-低GI饮食",
+  "organId": "胰腺",
+  "behaviorId": "低GI饮食",
+  "impactLevel": 2,
+  "mechanism": "降低胰腺外分泌功能负担",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

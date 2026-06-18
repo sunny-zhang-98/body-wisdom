@@ -1,0 +1,8 @@
+{
+  "id": "眼-关灯玩手机",
+  "organId": "眼",
+  "behaviorId": "关灯玩手机",
+  "impactLevel": 5,
+  "mechanism": "高对比度光刺激加重视疲劳，蓝光抑制视网膜细胞修复",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "心脏-过度饮酒",
+  "organId": "心脏",
+  "behaviorId": "过度饮酒",
+  "impactLevel": 3,
+  "mechanism": "酒精性心肌病，导致心功能下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

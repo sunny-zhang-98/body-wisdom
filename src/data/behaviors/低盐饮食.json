@@ -1,0 +1,8 @@
+{
+  "id": "低盐饮食",
+  "name": "低盐饮食",
+  "type": "beneficial",
+  "description": "减少钠盐摄入，包括隐形盐（加工食品、酱油等）",
+  "quantificationNote": "每日盐摄入<5g（约一啤酒瓶盖）。超过6g/天显著增加高血压风险",
+  "category": "饮食"
+}

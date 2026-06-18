@@ -1,0 +1,8 @@
+{
+  "id": "大肠-膳食纤维不足",
+  "organId": "大肠",
+  "behaviorId": "膳食纤维不足",
+  "impactLevel": 5,
+  "mechanism": "缺乏膳食纤维导致肠道蠕动减慢，增加结直肠癌风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

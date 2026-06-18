@@ -1,0 +1,8 @@
+{
+  "id": "血液-补充B族维生素",
+  "organId": "血液",
+  "behaviorId": "补充B族维生素",
+  "impactLevel": 4,
+  "mechanism": "叶酸和B12是红细胞生成必需",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "胰岛",
+  "name": "胰岛（内分泌）",
+  "systemId": "内分泌系统",
+  "function": "分泌胰岛素和胰高血糖素调节血糖",
+  "description": "胰腺中散在分布的细胞团（胰岛），分泌胰岛素降低血糖和胰高血糖素升高血糖，是血糖调控的核心。",
+  "earlySymptoms": ["口渴多饮", "尿多", "体重不明下降", "伤口愈合慢"],
+  "lateDiseases": ["2型糖尿病", "1型糖尿病", "糖尿病酮症酸中毒"],
+  "selfChecks": [
+    {
+      "title": "空腹血糖筛查",
+      "method": "晨起空腹（禁食8小时以上）检测指尖血糖",
+      "whatToObserve": "血糖值",
+      "normalResult": "空腹血糖<6.1mmol/L",
+      "warningResult": "空腹血糖≥6.1mmol/L或餐后2小时血糖≥7.8mmol/L，建议进一步检查",
+      "note": "家用血糖仪结果仅供参考，确诊需静脉血糖"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "血糖代谢正常" },
+    { "level": 1, "label": "亚健康", "description": "空腹血糖偏高（6.1-7.0），胰岛素抵抗" },
+    { "level": 2, "label": "早期损伤", "description": "糖耐量异常（糖尿病前期）" },
+    { "level": 3, "label": "中度损伤", "description": "2型糖尿病，需口服药控制" },
+    { "level": 4, "label": "重度损伤", "description": "糖尿病伴并发症风险" },
+    { "level": 5, "label": "衰竭", "description": "糖尿病严重并发症（酮症酸中毒等）" }
+  ]
+}

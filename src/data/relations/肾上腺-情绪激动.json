@@ -1,0 +1,8 @@
+{
+  "id": "肾上腺-情绪激动",
+  "organId": "肾上腺",
+  "behaviorId": "情绪激动",
+  "impactLevel": 3,
+  "mechanism": "反复的情绪爆发导致肾上腺素及皮质醇频繁波动",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

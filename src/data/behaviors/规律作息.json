@@ -1,0 +1,8 @@
+{
+  "id": "规律作息",
+  "name": "规律作息",
+  "type": "beneficial",
+  "description": "保持固定的起床、用餐、工作和睡眠时间",
+  "quantificationNote": "每天起床时间波动<1小时为佳。经常熬夜（生物钟偏移>2小时）增加代谢紊乱风险",
+  "category": "作息"
+}

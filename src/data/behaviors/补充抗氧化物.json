@@ -1,0 +1,8 @@
+{
+  "id": "补充抗氧化物",
+  "name": "补充抗氧化物质",
+  "type": "beneficial",
+  "description": "摄入富含维生素C、E、多酚等抗氧化物的食物",
+  "quantificationNote": "每日：维C 100mg（≈一个猕猴桃），维E 14mg。通过食物获取优于补充剂，补充剂高剂量可能有害",
+  "category": "饮食"
+}

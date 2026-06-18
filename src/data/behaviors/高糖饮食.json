@@ -1,0 +1,8 @@
+{
+  "id": "高糖饮食",
+  "name": "高糖饮食",
+  "type": "harmful",
+  "description": "大量摄入添加糖和精制碳水化合物",
+  "quantificationNote": "含糖饮料每天>1罐，糖尿病风险增加26%。每日添加糖>50g加速皮肤糖化衰老",
+  "category": "饮食"
+}

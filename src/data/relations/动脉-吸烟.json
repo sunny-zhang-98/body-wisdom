@@ -1,0 +1,8 @@
+{
+  "id": "动脉-吸烟",
+  "organId": "动脉",
+  "behaviorId": "吸烟",
+  "impactLevel": 5,
+  "mechanism": "损伤血管内皮，加速动脉粥样硬化",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

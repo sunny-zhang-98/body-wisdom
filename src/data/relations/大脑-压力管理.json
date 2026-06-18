@@ -1,0 +1,8 @@
+{
+  "id": "大脑-压力管理",
+  "organId": "大脑",
+  "behaviorId": "压力管理",
+  "impactLevel": 4,
+  "mechanism": "增强前额叶调控能力，降低杏仁核过度反应",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

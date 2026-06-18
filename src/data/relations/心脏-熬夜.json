@@ -1,0 +1,8 @@
+{
+  "id": "心脏-熬夜",
+  "organId": "心脏",
+  "behaviorId": "熬夜",
+  "impactLevel": 4,
+  "mechanism": "交感神经过度兴奋，增加心律失常和心源性猝死风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

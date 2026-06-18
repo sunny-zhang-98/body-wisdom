@@ -1,0 +1,8 @@
+{
+  "id": "骨骼肌-缺乏运动",
+  "organId": "骨骼肌",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 5,
+  "mechanism": "肌纤维不用则废，肌肉量和力量逐渐下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

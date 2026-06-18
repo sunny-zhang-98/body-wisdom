@@ -1,0 +1,8 @@
+{
+  "id": "大脑-规律作息",
+  "organId": "大脑",
+  "behaviorId": "规律作息",
+  "impactLevel": 4,
+  "mechanism": "稳定生物钟，优化认知功能节律",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

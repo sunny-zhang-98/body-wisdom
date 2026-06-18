@@ -1,0 +1,8 @@
+{
+  "id": "动脉-戒烟",
+  "organId": "动脉",
+  "behaviorId": "戒烟",
+  "impactLevel": 5,
+  "mechanism": "停止尼古丁对血管内皮的损伤，减缓动脉硬化",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

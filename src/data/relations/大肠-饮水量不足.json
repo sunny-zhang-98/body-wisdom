@@ -1,0 +1,8 @@
+{
+  "id": "大肠-饮水量不足",
+  "organId": "大肠",
+  "behaviorId": "饮水量不足",
+  "impactLevel": 4,
+  "mechanism": "粪便水分减少导致便秘和痔疮加重",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

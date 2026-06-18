@@ -1,0 +1,8 @@
+{
+  "id": "皮下脂肪-高糖饮食",
+  "organId": "皮下脂肪",
+  "behaviorId": "高糖饮食",
+  "impactLevel": 4,
+  "mechanism": "多余糖分转化为脂肪储存，促进肥胖",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

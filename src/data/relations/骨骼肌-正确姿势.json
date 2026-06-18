@@ -1,0 +1,8 @@
+{
+  "id": "骨骼肌-正确姿势",
+  "organId": "骨骼肌",
+  "behaviorId": "正确姿势",
+  "impactLevel": 3,
+  "mechanism": "均衡肌肉负荷，防止代偿性肌肉紧张",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

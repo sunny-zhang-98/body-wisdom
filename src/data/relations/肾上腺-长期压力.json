@@ -1,0 +1,8 @@
+{
+  "id": "肾上腺-长期压力",
+  "organId": "肾上腺",
+  "behaviorId": "长期压力",
+  "impactLevel": 5,
+  "mechanism": "持续性皮质醇升高导致肾上腺分泌节律紊乱和功能疲劳",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

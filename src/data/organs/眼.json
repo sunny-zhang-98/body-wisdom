@@ -1,0 +1,27 @@
+{
+  "id": "眼",
+  "name": "眼（角膜/晶状体/视网膜）",
+  "systemId": "感觉器官",
+  "function": "视觉——接收光线并转换为神经信号",
+  "description": "人体最重要的感觉器官，角膜和晶状体将光线聚焦在视网膜上，感光细胞将光信号转换为神经电信号。",
+  "earlySymptoms": ["视力模糊", "眼干涩疲劳", "夜间视力下降", "看东西变形"],
+  "lateDiseases": ["近视/远视", "白内障", "青光眼", "黄斑变性"],
+  "selfChecks": [
+    {
+      "title": "阿姆斯勒方格表自测",
+      "method": "在光线充足处，将方格表放在眼前30cm处，交替遮盖单眼注视中心黑点",
+      "whatToObserve": "方格线条是否变形、缺失或出现暗区",
+      "normalResult": "所有方格线条清晰、笔直、完整",
+      "warningResult": "看到线条扭曲、断裂或出现暗影，建议眼底检查",
+      "note": "如有老花镜或近视镜请佩戴测试"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "视力正常，无器质性病变" },
+    { "level": 1, "label": "亚健康", "description": "轻度视力下降或干眼症" },
+    { "level": 2, "label": "早期损伤", "description": "明显视力下降或早期白内障" },
+    { "level": 3, "label": "中度损伤", "description": "白内障或视网膜病变" },
+    { "level": 4, "label": "重度损伤", "description": "青光眼或黄斑变性" },
+    { "level": 5, "label": "衰竭", "description": "失明" }
+  ]
+}

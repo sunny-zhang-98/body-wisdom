@@ -1,0 +1,8 @@
+{
+  "id": "肾脏-饮水量不足",
+  "organId": "肾脏",
+  "behaviorId": "饮水量不足",
+  "impactLevel": 5,
+  "mechanism": "尿液浓缩增加结石形成和尿路感染风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

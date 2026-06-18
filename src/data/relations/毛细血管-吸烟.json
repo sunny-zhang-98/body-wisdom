@@ -1,0 +1,8 @@
+{
+  "id": "毛细血管-吸烟",
+  "organId": "毛细血管",
+  "behaviorId": "吸烟",
+  "impactLevel": 3,
+  "mechanism": "微循环障碍，组织供氧减少",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

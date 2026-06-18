@@ -1,0 +1,18 @@
+{
+  "id": "鼻腔",
+  "name": "鼻腔（鼻毛/黏膜）",
+  "systemId": "呼吸系统",
+  "function": "加温、加湿、过滤吸入空气",
+  "description": "空气进入人体的第一道门户，鼻毛过滤灰尘，黏膜分泌黏液并加温加湿空气。",
+  "earlySymptoms": ["经常鼻塞", "鼻腔干燥", "流鼻血"],
+  "lateDiseases": ["慢性鼻炎", "鼻窦炎", "鼻中隔偏曲"],
+  "selfChecks": [],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "鼻腔通畅，功能正常" },
+    { "level": 1, "label": "亚健康", "description": "偶有鼻塞或干燥" },
+    { "level": 2, "label": "早期损伤", "description": "经常鼻塞，黏膜敏感" },
+    { "level": 3, "label": "中度损伤", "description": "慢性鼻炎，影响呼吸" },
+    { "level": 4, "label": "重度损伤", "description": "鼻窦炎反复发作" },
+    { "level": 5, "label": "衰竭", "description": "鼻腔功能严重障碍" }
+  ]
+}

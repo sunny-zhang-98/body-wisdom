@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-均衡饮食",
+  "organId": "肝脏",
+  "behaviorId": "均衡饮食",
+  "impactLevel": 3,
+  "mechanism": "提供肝脏代谢所需的各种营养素和抗氧化物",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

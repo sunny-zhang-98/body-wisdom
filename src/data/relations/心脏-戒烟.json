@@ -1,0 +1,8 @@
+{
+  "id": "心脏-戒烟",
+  "organId": "心脏",
+  "behaviorId": "戒烟",
+  "impactLevel": 5,
+  "mechanism": "戒烟1年内冠心病风险降低50%，改善心肌供氧",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "外周神经-补充B族维生素",
+  "organId": "外周神经",
+  "behaviorId": "补充B族维生素",
+  "impactLevel": 5,
+  "mechanism": "B族维生素是神经髓鞘修复和神经传导必需物质",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

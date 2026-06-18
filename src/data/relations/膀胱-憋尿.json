@@ -1,0 +1,8 @@
+{
+  "id": "膀胱-憋尿",
+  "organId": "膀胱",
+  "behaviorId": "憋尿",
+  "impactLevel": 5,
+  "mechanism": "长期憋尿导致逼尿肌过度牵拉，收缩力下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

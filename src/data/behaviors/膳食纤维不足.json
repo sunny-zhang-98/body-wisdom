@@ -1,0 +1,8 @@
+{
+  "id": "膳食纤维不足",
+  "name": "膳食纤维不足",
+  "type": "harmful",
+  "description": "饮食中缺乏蔬菜、水果和粗粮等膳食纤维",
+  "quantificationNote": "每日膳食纤维<15g（推荐量的50%）增加结直肠癌风险30%",
+  "category": "饮食"
+}

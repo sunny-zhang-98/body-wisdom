@@ -1,0 +1,8 @@
+{
+  "id": "胰岛-低GI饮食",
+  "organId": "胰岛",
+  "behaviorId": "低GI饮食",
+  "impactLevel": 5,
+  "mechanism": "减轻胰岛素分泌压力，改善胰岛素敏感性",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

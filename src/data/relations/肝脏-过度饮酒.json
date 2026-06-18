@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-过度饮酒",
+  "organId": "肝脏",
+  "behaviorId": "过度饮酒",
+  "impactLevel": 5,
+  "mechanism": "乙醇代谢产生乙醛直接损伤肝细胞，导致脂肪肝→肝硬化",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

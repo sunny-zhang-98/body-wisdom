@@ -1,0 +1,8 @@
+{
+  "id": "大脑-补充抗氧化物",
+  "organId": "大脑",
+  "behaviorId": "补充抗氧化物",
+  "impactLevel": 4,
+  "mechanism": "减少氧化应激对神经元的损伤",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

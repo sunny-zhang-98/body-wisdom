@@ -1,0 +1,8 @@
+{
+  "id": "胃-乱吃药",
+  "organId": "胃",
+  "behaviorId": "乱吃药",
+  "impactLevel": 3,
+  "mechanism": "口服药物直接刺激胃黏膜，引起炎症和糜烂",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

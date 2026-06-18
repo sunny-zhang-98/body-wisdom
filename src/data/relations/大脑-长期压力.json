@@ -1,0 +1,8 @@
+{
+  "id": "大脑-长期压力",
+  "organId": "大脑",
+  "behaviorId": "长期压力",
+  "impactLevel": 4,
+  "mechanism": "高皮质醇损伤海马区神经元，导致记忆力和情绪调节下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

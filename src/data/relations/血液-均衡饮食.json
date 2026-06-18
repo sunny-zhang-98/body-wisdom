@@ -1,0 +1,8 @@
+{
+  "id": "血液-均衡饮食",
+  "organId": "血液",
+  "behaviorId": "均衡饮食",
+  "impactLevel": 4,
+  "mechanism": "提供全面营养素，维持血细胞生成和功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

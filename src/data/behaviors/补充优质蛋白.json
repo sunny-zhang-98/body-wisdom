@@ -1,0 +1,8 @@
+{
+  "id": "补充优质蛋白",
+  "name": "补充优质蛋白质",
+  "type": "beneficial",
+  "description": "确保摄入足量的优质动物和植物蛋白",
+  "quantificationNote": "每日蛋白质：男性约65g，女性约55g（体重kg×1.0-1.2g）。过量（>2g/kg/天）增加肾脏负担",
+  "category": "饮食"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "大脑-情绪激动",
+  "organId": "大脑",
+  "behaviorId": "情绪激动",
+  "impactLevel": 3,
+  "mechanism": "激活杏仁核应激反应，影响前额叶理性决策功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

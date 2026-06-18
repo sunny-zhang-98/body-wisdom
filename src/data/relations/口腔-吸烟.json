@@ -1,0 +1,8 @@
+{
+  "id": "口腔-吸烟",
+  "organId": "口腔",
+  "behaviorId": "吸烟",
+  "impactLevel": 4,
+  "mechanism": "热刺激和化学物质损伤口腔黏膜，增加口腔癌风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

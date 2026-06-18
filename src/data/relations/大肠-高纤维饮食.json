@@ -1,0 +1,8 @@
+{
+  "id": "大肠-高纤维饮食",
+  "organId": "大肠",
+  "behaviorId": "高纤维饮食",
+  "impactLevel": 5,
+  "mechanism": "促进肠道蠕动，降低结直肠癌风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

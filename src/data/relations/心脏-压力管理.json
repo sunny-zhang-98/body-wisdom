@@ -1,0 +1,8 @@
+{
+  "id": "心脏-压力管理",
+  "organId": "心脏",
+  "behaviorId": "压力管理",
+  "impactLevel": 3,
+  "mechanism": "降低静息心率，减少压力相关心血管事件",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

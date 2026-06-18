@@ -1,0 +1,8 @@
+{
+  "id": "胃-均衡饮食",
+  "organId": "胃",
+  "behaviorId": "均衡饮食",
+  "impactLevel": 2,
+  "mechanism": "均衡饮食减轻胃负担，提供胃黏膜修复所需营养",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "补钙",
+  "name": "补充钙和维生素D",
+  "type": "beneficial",
+  "description": "通过饮食或补充剂摄入足够的钙和维生素D",
+  "quantificationNote": "成人每日钙800mg（≈300ml牛奶×3），维D 400-800IU。过量补钙（>2000mg/天）增加肾结石风险",
+  "category": "饮食"
+}

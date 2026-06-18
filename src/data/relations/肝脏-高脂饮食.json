@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-高脂饮食",
+  "organId": "肝脏",
+  "behaviorId": "高脂饮食",
+  "impactLevel": 5,
+  "mechanism": "过多脂肪酸堆积导致非酒精性脂肪肝",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

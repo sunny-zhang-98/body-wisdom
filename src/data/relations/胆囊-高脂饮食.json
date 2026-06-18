@@ -1,0 +1,8 @@
+{
+  "id": "胆囊-高脂饮食",
+  "organId": "胆囊",
+  "behaviorId": "高脂饮食",
+  "impactLevel": 4,
+  "mechanism": "高胆固醇促进胆结石形成",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "表皮-补充抗氧化物",
+  "organId": "表皮",
+  "behaviorId": "补充抗氧化物",
+  "impactLevel": 3,
+  "mechanism": "减少紫外线引起的氧化损伤",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

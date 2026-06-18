@@ -1,0 +1,35 @@
+{
+  "id": "肾脏",
+  "name": "肾脏（肾单位）",
+  "systemId": "泌尿系统",
+  "function": "过滤血液、调节水电解质平衡",
+  "description": "一对蚕豆形器官，每天过滤约180L血液，最终形成约1.5L尿液，维持体内水、电解质和酸碱平衡。",
+  "earlySymptoms": ["眼睑或下肢水肿", "尿量异常（增多或减少）", "泡沫尿", "腰酸"],
+  "lateDiseases": ["慢性肾病", "肾衰竭（尿毒症）", "肾结石"],
+  "selfChecks": [
+    {
+      "title": "尿液观察",
+      "method": "排尿时观察尿液颜色和泡沫情况",
+      "whatToObserve": "是否有大量不消散的泡沫",
+      "normalResult": "尿液清澈或淡黄，泡沫迅速消散",
+      "warningResult": "持续大量细小泡沫（蛋白尿），或尿色异常如洗肉水色，建议查尿常规",
+      "note": "马桶清洁剂也可能导致泡沫，冲水后观察更准确"
+    },
+    {
+      "title": "水肿检查",
+      "method": "用拇指按压小腿胫骨前侧或脚踝5秒后松开",
+      "whatToObserve": "按压处是否有凹陷且不回弹",
+      "normalResult": "松开后皮肤立即回弹",
+      "warningResult": "按压后留下明显凹陷且缓慢回弹，建议肾内科就诊",
+      "note": "水肿也可能由心脏或肝脏问题引起"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "肾功能正常，滤过率正常" },
+    { "level": 1, "label": "亚健康", "description": "轻度蛋白尿，肾功能正常" },
+    { "level": 2, "label": "早期损伤", "description": "肾功能轻度下降（eGFR 60-89）" },
+    { "level": 3, "label": "中度损伤", "description": "肾功能中度下降（eGFR 30-59）" },
+    { "level": 4, "label": "重度损伤", "description": "肾功能严重下降（eGFR 15-29）" },
+    { "level": 5, "label": "衰竭", "description": "尿毒症（eGFR<15），需透析" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "真皮-高糖饮食",
+  "organId": "真皮",
+  "behaviorId": "高糖饮食",
+  "impactLevel": 3,
+  "mechanism": "糖化反应使胶原蛋白失去弹性，加速皮肤老化",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

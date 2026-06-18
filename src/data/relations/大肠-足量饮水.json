@@ -1,0 +1,8 @@
+{
+  "id": "大肠-足量饮水",
+  "organId": "大肠",
+  "behaviorId": "足量饮水",
+  "impactLevel": 4,
+  "mechanism": "软化粪便，促进肠道蠕动，预防便秘",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

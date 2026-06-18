@@ -1,0 +1,8 @@
+{
+  "id": "高脂饮食",
+  "name": "高脂饮食",
+  "type": "harmful",
+  "description": "过量摄入高饱和脂肪和反式脂肪酸的食物",
+  "quantificationNote": "饱和脂肪供能>总热量10%或反式脂肪>2g/天。红肉>500g/周增加结直肠癌风险",
+  "category": "饮食"
+}

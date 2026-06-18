@@ -1,0 +1,8 @@
+{
+  "id": "低GI饮食",
+  "name": "低GI饮食",
+  "type": "beneficial",
+  "description": "选择升糖指数低的食物，稳定血糖",
+  "quantificationNote": "每日添加糖<25g。避免含糖饮料、精制碳水。粗粮替代细粮可降低30%餐后血糖峰值",
+  "category": "饮食"
+}

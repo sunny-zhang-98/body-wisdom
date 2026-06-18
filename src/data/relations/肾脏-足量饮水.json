@@ -1,0 +1,8 @@
+{
+  "id": "肾脏-足量饮水",
+  "organId": "肾脏",
+  "behaviorId": "足量饮水",
+  "impactLevel": 5,
+  "mechanism": "稀释尿液，降低肾结石风险，维持肾小球滤过率",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

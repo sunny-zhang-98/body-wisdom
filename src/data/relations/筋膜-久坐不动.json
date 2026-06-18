@@ -1,0 +1,8 @@
+{
+  "id": "筋膜-久坐不动",
+  "organId": "筋膜",
+  "behaviorId": "久坐不动",
+  "impactLevel": 4,
+  "mechanism": "长期静态姿势导致筋膜粘连和纤维化",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

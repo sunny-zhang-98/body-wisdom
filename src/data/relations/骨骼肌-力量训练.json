@@ -1,0 +1,8 @@
+{
+  "id": "骨骼肌-力量训练",
+  "organId": "骨骼肌",
+  "behaviorId": "力量训练",
+  "impactLevel": 5,
+  "mechanism": "刺激肌纤维合成，增加肌肉量和力量",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

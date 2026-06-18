@@ -1,0 +1,8 @@
+{
+  "id": "血液-补充优质蛋白",
+  "organId": "血液",
+  "behaviorId": "补充优质蛋白",
+  "impactLevel": 3,
+  "mechanism": "提供血红蛋白和白蛋白合成原料",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

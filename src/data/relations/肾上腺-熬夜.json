@@ -1,0 +1,8 @@
+{
+  "id": "肾上腺-熬夜",
+  "organId": "肾上腺",
+  "behaviorId": "熬夜",
+  "impactLevel": 5,
+  "mechanism": "强制肾上腺持续分泌皮质醇，加速肾上腺疲劳",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "静脉",
+  "name": "静脉（含瓣膜）",
+  "systemId": "循环系统",
+  "function": "将血液回流至心脏",
+  "description": "将含二氧化碳的血液从全身组织带回心脏，管壁较薄，内有静脉瓣防止血液倒流。",
+  "earlySymptoms": ["下肢酸胀沉重", "踝部水肿", "腿部可见毛细血管扩张"],
+  "lateDiseases": ["下肢静脉曲张", "深静脉血栓", "静脉功能不全"],
+  "selfChecks": [
+    {
+      "title": "腿部观察",
+      "method": "站立5分钟后观察双腿，尤其小腿后方",
+      "whatToObserve": "是否有明显凸起的青筋",
+      "normalResult": "皮肤表面无异常凸起血管",
+      "warningResult": "可见明显迂曲凸起的静脉，或腿部肿胀不对称",
+      "note": "长期站立工作者需特别注意"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "静脉回流正常，无水肿" },
+    { "level": 1, "label": "亚健康", "description": "腿偶有酸胀，无明显静脉曲张" },
+    { "level": 2, "label": "早期损伤", "description": "小腿可见蜘蛛网状静脉" },
+    { "level": 3, "label": "中度损伤", "description": "明显静脉曲张，久站后水肿" },
+    { "level": 4, "label": "重度损伤", "description": "严重静脉曲张，色素沉着" },
+    { "level": 5, "label": "衰竭", "description": "静脉性溃疡（老烂腿）" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "关节软骨-跷二郎腿",
+  "organId": "关节软骨",
+  "behaviorId": "跷二郎腿",
+  "impactLevel": 2,
+  "mechanism": "膝关节不均匀受压加速软骨磨损",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

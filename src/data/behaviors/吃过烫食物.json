@@ -1,0 +1,8 @@
+{
+  "id": "吃过烫食物",
+  "name": "吃/喝过烫食物",
+  "type": "harmful",
+  "description": "长期食用温度超过65°C的热食热饮",
+  "quantificationNote": "超过65°C的热饮被WHO列为2A类致癌物。长期>55°C饮食增加食管癌风险",
+  "category": "饮食"
+}

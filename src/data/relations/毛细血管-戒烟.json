@@ -1,0 +1,8 @@
+{
+  "id": "毛细血管-戒烟",
+  "organId": "毛细血管",
+  "behaviorId": "戒烟",
+  "impactLevel": 3,
+  "mechanism": "微循环改善，组织供氧增加",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

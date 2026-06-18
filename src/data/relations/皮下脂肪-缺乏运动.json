@@ -1,0 +1,8 @@
+{
+  "id": "皮下脂肪-缺乏运动",
+  "organId": "皮下脂肪",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 4,
+  "mechanism": "能量消耗减少导致脂肪堆积",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

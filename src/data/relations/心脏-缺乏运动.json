@@ -1,0 +1,8 @@
+{
+  "id": "心脏-缺乏运动",
+  "organId": "心脏",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 5,
+  "mechanism": "心脏泵血效率降低，运动耐量下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

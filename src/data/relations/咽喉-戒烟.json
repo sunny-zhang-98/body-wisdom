@@ -1,0 +1,8 @@
+{
+  "id": "咽喉-戒烟",
+  "organId": "咽喉",
+  "behaviorId": "戒烟",
+  "impactLevel": 3,
+  "mechanism": "减少声带和咽喉黏膜刺激",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

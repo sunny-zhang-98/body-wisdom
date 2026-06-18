@@ -1,0 +1,27 @@
+{
+  "id": "骨组织",
+  "name": "骨组织（骨质）",
+  "systemId": "运动系统",
+  "function": "支撑身体、储存钙质、造血",
+  "description": "骨骼是人体的支架，由骨组织构成，具有支撑、保护和运动功能，同时是钙磷储存库和造血场所。",
+  "earlySymptoms": ["关节隐痛", "身高变矮", "轻微碰撞后骨折"],
+  "lateDiseases": ["骨质疏松", "骨软化症", "骨折不愈合"],
+  "selfChecks": [
+    {
+      "title": "身高变化自测",
+      "method": "每年测量一次身高，记录变化",
+      "whatToObserve": "身高是否逐年下降超过2cm",
+      "normalResult": "身高无明显变化",
+      "warningResult": "3年内身高下降超过3cm，建议骨密度检查",
+      "note": "建议固定同一时间（如晨起）测量"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "骨密度正常，骨骼强韧" },
+    { "level": 1, "label": "亚健康", "description": "骨密度略有下降，无明显症状" },
+    { "level": 2, "label": "早期损伤", "description": "骨量减少，轻微骨质疏松" },
+    { "level": 3, "label": "中度损伤", "description": "明显骨质疏松，有骨折风险" },
+    { "level": 4, "label": "重度损伤", "description": "严重骨质疏松，轻微碰撞即骨折" },
+    { "level": 5, "label": "衰竭", "description": "骨质极度脆弱，多发骨折" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "大脑-过度饮酒",
+  "organId": "大脑",
+  "behaviorId": "过度饮酒",
+  "impactLevel": 4,
+  "mechanism": "酒精神经毒性导致脑萎缩和认知功能下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

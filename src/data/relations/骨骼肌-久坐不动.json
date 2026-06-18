@@ -1,0 +1,8 @@
+{
+  "id": "骨骼肌-久坐不动",
+  "organId": "骨骼肌",
+  "behaviorId": "久坐不动",
+  "impactLevel": 4,
+  "mechanism": "特定肌群长期不活动导致萎缩和失衡",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

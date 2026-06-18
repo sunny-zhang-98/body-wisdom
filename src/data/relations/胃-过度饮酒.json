@@ -1,0 +1,8 @@
+{
+  "id": "胃-过度饮酒",
+  "organId": "胃",
+  "behaviorId": "过度饮酒",
+  "impactLevel": 4,
+  "mechanism": "酒精直接刺激胃黏膜，引起充血水肿和出血",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

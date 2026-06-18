@@ -1,0 +1,8 @@
+{
+  "id": "情绪激动",
+  "name": "情绪激动/暴怒",
+  "type": "harmful",
+  "description": "频繁或剧烈的情绪波动，尤其是愤怒",
+  "quantificationNote": "暴怒后2小时内心脏病发作风险增加4.7倍。长期易怒者患高血压风险高",
+  "category": "作息"
+}

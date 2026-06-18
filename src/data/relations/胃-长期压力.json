@@ -1,0 +1,8 @@
+{
+  "id": "胃-长期压力",
+  "organId": "胃",
+  "behaviorId": "长期压力",
+  "impactLevel": 3,
+  "mechanism": "压力增加胃酸分泌，降低胃黏膜保护因子",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

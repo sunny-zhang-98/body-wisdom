@@ -1,0 +1,8 @@
+{
+  "id": "眼-防晒",
+  "organId": "眼",
+  "behaviorId": "防晒",
+  "impactLevel": 3,
+  "mechanism": "减少紫外线对晶状体和视网膜的损伤",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

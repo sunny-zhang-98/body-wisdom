@@ -1,0 +1,8 @@
+{
+  "id": "血液-低GI饮食",
+  "organId": "血液",
+  "behaviorId": "低GI饮食",
+  "impactLevel": 3,
+  "mechanism": "稳定血糖水平，改善血脂",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

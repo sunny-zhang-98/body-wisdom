@@ -1,0 +1,8 @@
+{
+  "id": "皮下脂肪-有氧运动",
+  "organId": "皮下脂肪",
+  "behaviorId": "有氧运动",
+  "impactLevel": 4,
+  "mechanism": "促进脂肪氧化，减少内脏脂肪和皮下脂肪",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

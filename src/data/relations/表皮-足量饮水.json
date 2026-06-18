@@ -1,0 +1,8 @@
+{
+  "id": "表皮-足量饮水",
+  "organId": "表皮",
+  "behaviorId": "足量饮水",
+  "impactLevel": 2,
+  "mechanism": "维持皮肤水合度，改善皮肤弹性",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "戒烟",
+  "name": "戒烟",
+  "type": "beneficial",
+  "description": "远离所有形式的烟草（包括二手烟）",
+  "quantificationNote": "任何吸烟量都有害。戒烟后20分钟血压开始改善，1年内冠心病风险降低50%",
+  "category": "习惯"
+}

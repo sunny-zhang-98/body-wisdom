@@ -1,0 +1,8 @@
+{
+  "id": "肾脏-憋尿",
+  "organId": "肾脏",
+  "behaviorId": "憋尿",
+  "impactLevel": 4,
+  "mechanism": "膀胱内压力上升可逆流至输尿管和肾脏，造成肾积水",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "骨骼肌-补充优质蛋白",
+  "organId": "骨骼肌",
+  "behaviorId": "补充优质蛋白",
+  "impactLevel": 5,
+  "mechanism": "提供肌蛋白合成的氨基酸原料",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

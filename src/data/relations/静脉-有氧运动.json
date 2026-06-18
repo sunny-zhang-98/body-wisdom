@@ -1,0 +1,8 @@
+{
+  "id": "静脉-有氧运动",
+  "organId": "静脉",
+  "behaviorId": "有氧运动",
+  "impactLevel": 3,
+  "mechanism": "促进下肢静脉回流，增强踝泵效应",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

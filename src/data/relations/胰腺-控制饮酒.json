@@ -1,0 +1,8 @@
+{
+  "id": "胰腺-控制饮酒",
+  "organId": "胰腺",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 4,
+  "mechanism": "降低急性胰腺炎风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

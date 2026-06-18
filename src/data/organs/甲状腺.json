@@ -1,0 +1,27 @@
+{
+  "id": "甲状腺",
+  "name": "甲状腺",
+  "systemId": "内分泌系统",
+  "function": "调节新陈代谢、生长发育",
+  "description": "位于颈部前方的蝴蝶形腺体，分泌甲状腺激素（T3、T4），调控全身代谢率、心率和体温。",
+  "earlySymptoms": ["情绪波动", "体重异常变化", "颈部增粗", "怕冷或怕热"],
+  "lateDiseases": ["甲亢", "甲减", "结节性甲状腺肿", "甲状腺癌"],
+  "selfChecks": [
+    {
+      "title": "颈部触诊",
+      "method": "面对镜子，头后仰，吞咽口水时观察颈部喉结下方是否有隆起",
+      "whatToObserve": "颈部是否有不对称凸起或增粗",
+      "normalResult": "颈部光滑，吞咽时无异常隆起",
+      "warningResult": "吞咽时可见明显隆起或触摸到结节，建议甲状腺超声",
+      "note": "不要过度用力按压，轻轻触摸即可"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "甲状腺功能正常，形态正常" },
+    { "level": 1, "label": "亚健康", "description": "甲状腺抗体阳性或小结节，功能正常" },
+    { "level": 2, "label": "早期损伤", "description": "甲状腺结节或轻度功能异常" },
+    { "level": 3, "label": "中度损伤", "description": "甲亢或甲减，需药物控制" },
+    { "level": 4, "label": "重度损伤", "description": "甲状腺严重结节或功能失控" },
+    { "level": 5, "label": "衰竭", "description": "甲状腺危象或恶性病变" }
+  ]
+}

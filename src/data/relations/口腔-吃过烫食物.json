@@ -1,0 +1,8 @@
+{
+  "id": "口腔-吃过烫食物",
+  "organId": "口腔",
+  "behaviorId": "吃过烫食物",
+  "impactLevel": 3,
+  "mechanism": "热损伤口腔黏膜，增加口腔溃疡和炎症风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

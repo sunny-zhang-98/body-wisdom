@@ -1,0 +1,27 @@
+{
+  "id": "外周神经",
+  "name": "外周神经",
+  "systemId": "神经系统",
+  "function": "传递感觉和运动信号",
+  "description": "从脊髓延伸到全身各处的神经网络，负责将感觉信息传回中枢，将运动指令传到肌肉。",
+  "earlySymptoms": ["手脚末端麻木", "针刺感", "温度感觉变迟钝"],
+  "lateDiseases": ["糖尿病周围神经病变", "腕管综合征", "格林-巴利综合征"],
+  "selfChecks": [
+    {
+      "title": "单丝触觉测试",
+      "method": "用棉絮或柔软的纸巾轻触脚背和大脚趾尖端",
+      "whatToObserve": "是否能清晰感觉到触碰",
+      "normalResult": "能立即感觉到被触碰的位置",
+      "warningResult": "感觉迟钝或完全感觉不到，尤其是糖尿病患者应警惕",
+      "note": "糖尿病患者建议每月自查一次"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "感觉和运动传导正常" },
+    { "level": 1, "label": "亚健康", "description": "偶有轻微麻木" },
+    { "level": 2, "label": "早期损伤", "description": "持续麻木或刺痛" },
+    { "level": 3, "label": "中度损伤", "description": "感觉明显减退，肌肉轻微萎缩" },
+    { "level": 4, "label": "重度损伤", "description": "严重感觉丧失，肌无力" },
+    { "level": 5, "label": "衰竭", "description": "感觉完全丧失，瘫痪" }
+  ]
+}

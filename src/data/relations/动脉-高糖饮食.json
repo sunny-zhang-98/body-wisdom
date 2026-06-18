@@ -1,0 +1,8 @@
+{
+  "id": "动脉-高糖饮食",
+  "organId": "动脉",
+  "behaviorId": "高糖饮食",
+  "impactLevel": 4,
+  "mechanism": "糖化终产物（AGEs）损伤血管内皮",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

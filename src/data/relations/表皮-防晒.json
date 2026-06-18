@@ -1,0 +1,8 @@
+{
+  "id": "表皮-防晒",
+  "organId": "表皮",
+  "behaviorId": "防晒",
+  "impactLevel": 5,
+  "mechanism": "减少紫外线对角质形成细胞DNA的直接损伤",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

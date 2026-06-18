@@ -1,0 +1,8 @@
+{
+  "id": "肺-缺乏运动",
+  "organId": "肺",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 4,
+  "mechanism": "肺活量和通气效率下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

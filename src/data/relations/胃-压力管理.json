@@ -1,0 +1,8 @@
+{
+  "id": "胃-压力管理",
+  "organId": "胃",
+  "behaviorId": "压力管理",
+  "impactLevel": 3,
+  "mechanism": "减少压力引起的胃酸分泌和胃肠功能紊乱",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

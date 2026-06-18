@@ -1,0 +1,8 @@
+{
+  "id": "大肠-均衡饮食",
+  "organId": "大肠",
+  "behaviorId": "均衡饮食",
+  "impactLevel": 3,
+  "mechanism": "提供膳食纤维和益生元，维持肠道菌群平衡",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

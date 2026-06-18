@@ -1,0 +1,8 @@
+{
+  "id": "大脑-充足睡眠",
+  "organId": "大脑",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 5,
+  "mechanism": "清除β-淀粉样蛋白等代谢废物，巩固记忆",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "大脑-有氧运动",
+  "organId": "大脑",
+  "behaviorId": "有氧运动",
+  "impactLevel": 5,
+  "mechanism": "促进脑源性神经营养因子分泌，增强突触可塑性，改善认知功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

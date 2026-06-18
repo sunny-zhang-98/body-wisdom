@@ -1,0 +1,8 @@
+{
+  "id": "暴饮暴食",
+  "name": "暴饮暴食",
+  "type": "harmful",
+  "description": "单次进食量远超正常，或饮食极度不规律",
+  "quantificationNote": "单次热量>1500kcal或进餐时间<10分钟增加胃负担。每周超过1次的暴食模式损害消化系统",
+  "category": "饮食"
+}

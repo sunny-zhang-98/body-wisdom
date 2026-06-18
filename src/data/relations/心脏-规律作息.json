@@ -1,0 +1,8 @@
+{
+  "id": "心脏-规律作息",
+  "organId": "心脏",
+  "behaviorId": "规律作息",
+  "impactLevel": 3,
+  "mechanism": "降低心律失常风险，稳定心血管节律",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "补充B族维生素",
+  "name": "补充B族维生素",
+  "type": "beneficial",
+  "description": "摄入足量的B族维生素（B1、B6、B12、叶酸等）",
+  "quantificationNote": "推荐：粗粮杂豆、动物肝脏、深绿色蔬菜。B12缺乏在素食者中常见（<2.4μg/天）",
+  "category": "饮食"
+}

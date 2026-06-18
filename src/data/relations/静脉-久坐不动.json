@@ -1,0 +1,8 @@
+{
+  "id": "静脉-久坐不动",
+  "organId": "静脉",
+  "behaviorId": "久坐不动",
+  "impactLevel": 4,
+  "mechanism": "下肢肌肉泵作用减弱，静脉血液淤滞",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "骨骼肌",
+  "name": "骨骼肌（600+块）",
+  "systemId": "运动系统",
+  "function": "运动、产热、维持姿势",
+  "description": "附着在骨骼上的横纹肌，负责随意运动、维持体姿和产热，占体重的40%左右。",
+  "earlySymptoms": ["肌肉容易疲劳", "力量下降", "久坐后腰酸背痛"],
+  "lateDiseases": ["肌肉萎缩（少肌症）", "肌肉拉伤反复", "腰肌劳损"],
+  "selfChecks": [
+    {
+      "title": "握力测试",
+      "method": "用握力器或用手尽全力握紧另一只手的手指",
+      "whatToObserve": "力量是否明显下降",
+      "normalResult": "感觉有力、轻松握紧",
+      "warningResult": "力量明显下降或双手力量不对称，建议评估肌力",
+      "note": "如果有关节炎则不宜用力握紧"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "肌肉力量充足，耐力好" },
+    { "level": 1, "label": "亚健康", "description": "轻度肌肉疲劳，力量正常" },
+    { "level": 2, "label": "早期损伤", "description": "肌肉力量下降，容易酸痛" },
+    { "level": 3, "label": "中度损伤", "description": "肌力明显减退，肌肉量减少" },
+    { "level": 4, "label": "重度损伤", "description": "肌少症，行动能力受限" },
+    { "level": 5, "label": "衰竭", "description": "严重肌萎缩，无法独立行走" }
+  ]
+}

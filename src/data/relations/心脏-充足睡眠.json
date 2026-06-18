@@ -1,0 +1,8 @@
+{
+  "id": "心脏-充足睡眠",
+  "organId": "心脏",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 4,
+  "mechanism": "降低夜间血压和心率，让心血管系统修复",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

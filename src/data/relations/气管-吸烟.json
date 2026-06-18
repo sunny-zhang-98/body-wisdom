@@ -1,0 +1,8 @@
+{
+  "id": "气管-吸烟",
+  "organId": "气管",
+  "behaviorId": "吸烟",
+  "impactLevel": 5,
+  "mechanism": "抑制纤毛摆动，黏液分泌增多，排痰能力下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

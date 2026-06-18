@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-乱吃药",
+  "organId": "肝脏",
+  "behaviorId": "乱吃药",
+  "impactLevel": 5,
+  "mechanism": "药物代谢产生的毒性中间体直接损害肝细胞",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

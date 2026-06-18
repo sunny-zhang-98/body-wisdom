@@ -1,0 +1,8 @@
+{
+  "id": "心脏-控制饮酒",
+  "organId": "心脏",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 3,
+  "mechanism": "减少酒精性心肌损伤和心律失常",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

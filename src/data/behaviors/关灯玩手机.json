@@ -1,0 +1,8 @@
+{
+  "id": "关灯玩手机",
+  "name": "关灯玩手机",
+  "type": "harmful",
+  "description": "在黑暗环境中长时间使用手机/电子屏幕",
+  "quantificationNote": "暗光下屏幕亮度>30%增加视疲劳。睡前使用>30分钟抑制褪黑素分泌达50%",
+  "category": "习惯"
+}

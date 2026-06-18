@@ -1,0 +1,8 @@
+{
+  "id": "大肠-补充益生菌",
+  "organId": "大肠",
+  "behaviorId": "补充益生菌",
+  "impactLevel": 4,
+  "mechanism": "抑制有害菌生长，维护肠道屏障功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

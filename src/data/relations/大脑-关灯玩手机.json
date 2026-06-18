@@ -1,0 +1,8 @@
+{
+  "id": "大脑-关灯玩手机",
+  "organId": "大脑",
+  "behaviorId": "关灯玩手机",
+  "impactLevel": 4,
+  "mechanism": "蓝光抑制褪黑素分泌，扰乱生物钟和睡眠节律",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

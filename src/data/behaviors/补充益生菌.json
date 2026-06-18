@@ -1,0 +1,8 @@
+{
+  "id": "补充益生菌",
+  "name": "补充益生菌",
+  "type": "beneficial",
+  "description": "摄入含活性益生菌的食物或补充剂",
+  "quantificationNote": "每日摄入含活性菌的酸奶/发酵食品，或益生菌补充剂10亿-100亿CFU。长期使用同一种菌株效果下降",
+  "category": "饮食"
+}

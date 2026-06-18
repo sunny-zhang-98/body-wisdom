@@ -1,0 +1,8 @@
+{
+  "id": "眼-熬夜",
+  "organId": "眼",
+  "behaviorId": "熬夜",
+  "impactLevel": 3,
+  "mechanism": "长时间用眼加重视疲劳和干眼症",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

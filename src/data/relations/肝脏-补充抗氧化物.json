@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-补充抗氧化物",
+  "organId": "肝脏",
+  "behaviorId": "补充抗氧化物",
+  "impactLevel": 3,
+  "mechanism": "增强肝脏抗氧化酶活性，保护肝细胞",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

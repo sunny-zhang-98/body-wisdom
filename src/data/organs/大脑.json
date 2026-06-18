@@ -1,0 +1,35 @@
+{
+  "id": "大脑",
+  "name": "大脑",
+  "systemId": "神经系统",
+  "function": "思维、记忆、指令发出",
+  "description": "人体最复杂的器官，控制着思维、记忆、语言、情绪和运动指令。分左右半球，各负责不同的功能区域。",
+  "earlySymptoms": ["近期记忆力下降", "注意力不集中", "反应变慢"],
+  "lateDiseases": ["阿尔茨海默病", "血管性痴呆", "帕金森病"],
+  "selfChecks": [
+    {
+      "title": "简单记忆测试",
+      "method": "说出5个不相关物品名称（如：苹果、钥匙、3、蓝色、天空），5分钟后尝试回忆",
+      "whatToObserve": "能记住几个",
+      "normalResult": "能回忆4-5个",
+      "warningResult": "只能回忆0-2个，且持续出现，建议神经内科就诊",
+      "note": "睡眠不足、焦虑会影响表现，不可作为诊断依据"
+    },
+    {
+      "title": "画钟测试",
+      "method": "在白纸上画一个圆形钟表，标出所有数字，并画指针指向3:40",
+      "whatToObserve": "数字位置是否正确，指针是否能正确表达时间",
+      "normalResult": "数字位置正确，指针准确（短针在3-4之间，长针指向8）",
+      "warningResult": "数字排列混乱，或指针完全错误，建议认知功能评估",
+      "note": "这是常用的认知筛查方法之一，但不能替代专业诊断"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "思维敏捷，记忆力正常" },
+    { "level": 1, "label": "亚健康", "description": "偶有健忘，注意力轻度下降" },
+    { "level": 2, "label": "早期损伤", "description": "经常健忘，思维速度变慢" },
+    { "level": 3, "label": "中度损伤", "description": "明显记忆力下降，影响工作生活" },
+    { "level": 4, "label": "重度损伤", "description": "严重记忆障碍，需人照料" },
+    { "level": 5, "label": "衰竭", "description": "完全失智，丧失生活能力" }
+  ]
+}

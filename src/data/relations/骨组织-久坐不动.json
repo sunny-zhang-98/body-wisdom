@@ -1,0 +1,8 @@
+{
+  "id": "骨组织-久坐不动",
+  "organId": "骨组织",
+  "behaviorId": "久坐不动",
+  "impactLevel": 3,
+  "mechanism": "缺乏负重刺激导致骨密度逐渐下降",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

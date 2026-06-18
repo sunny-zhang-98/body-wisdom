@@ -1,0 +1,8 @@
+{
+  "id": "心脏-有氧运动",
+  "organId": "心脏",
+  "behaviorId": "有氧运动",
+  "impactLevel": 5,
+  "mechanism": "增强心肌收缩力，改善冠状动脉血流，降低静息心率",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

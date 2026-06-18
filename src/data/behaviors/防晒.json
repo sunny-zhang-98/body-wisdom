@@ -1,0 +1,8 @@
+{
+  "id": "防晒",
+  "name": "防晒",
+  "type": "beneficial",
+  "description": "通过防晒霜、衣帽等方式防护紫外线",
+  "quantificationNote": "SPF30+ PA+++，户外每2小时补涂。每天15分钟非防晒时段有助于维D合成",
+  "category": "习惯"
+}

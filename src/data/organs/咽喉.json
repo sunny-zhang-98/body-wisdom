@@ -1,0 +1,18 @@
+{
+  "id": "咽喉",
+  "name": "咽/喉（声带）",
+  "systemId": "呼吸系统",
+  "function": "发音、呼吸通道、吞咽",
+  "description": "咽喉是呼吸和消化的共同通道，声带振动产生声音，会厌软骨防止食物误入气管。",
+  "earlySymptoms": ["声音嘶哑", "咽部异物感", "频繁清嗓子"],
+  "lateDiseases": ["声带小结", "慢性咽炎", "喉部肿瘤"],
+  "selfChecks": [],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "声音洪亮，咽喉无不适" },
+    { "level": 1, "label": "亚健康", "description": "偶有咽干或声音疲劳" },
+    { "level": 2, "label": "早期损伤", "description": "经常咽痛或声音嘶哑" },
+    { "level": 3, "label": "中度损伤", "description": "慢性咽喉炎，声带充血" },
+    { "level": 4, "label": "重度损伤", "description": "声带小结或息肉" },
+    { "level": 5, "label": "衰竭", "description": "声带麻痹或喉部严重病变" }
+  ]
+}

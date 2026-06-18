@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-控制饮酒",
+  "organId": "肝脏",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 5,
+  "mechanism": "减少酒精代谢负担，防止肝细胞损伤和脂肪堆积",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

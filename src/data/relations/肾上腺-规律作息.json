@@ -1,0 +1,8 @@
+{
+  "id": "肾上腺-规律作息",
+  "organId": "肾上腺",
+  "behaviorId": "规律作息",
+  "impactLevel": 5,
+  "mechanism": "维持皮质醇正常分泌节律，防止肾上腺疲劳",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

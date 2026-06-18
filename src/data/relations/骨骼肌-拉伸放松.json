@@ -1,0 +1,8 @@
+{
+  "id": "骨骼肌-拉伸放松",
+  "organId": "骨骼肌",
+  "behaviorId": "拉伸放松",
+  "impactLevel": 4,
+  "mechanism": "缓解肌肉紧张，增加血流量，促进恢复",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "动脉-低盐饮食",
+  "organId": "动脉",
+  "behaviorId": "低盐饮食",
+  "impactLevel": 5,
+  "mechanism": "降低血压，减少血管壁压力",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

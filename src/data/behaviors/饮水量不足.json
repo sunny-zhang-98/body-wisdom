@@ -1,0 +1,8 @@
+{
+  "id": "饮水量不足",
+  "name": "饮水量不足",
+  "type": "harmful",
+  "description": "每日饮水低于身体基本需求",
+  "quantificationNote": "每日饮水<1L增加肾结石风险。脱水>体重的2%即影响认知功能",
+  "category": "饮食"
+}

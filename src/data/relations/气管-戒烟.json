@@ -1,0 +1,8 @@
+{
+  "id": "气管-戒烟",
+  "organId": "气管",
+  "behaviorId": "戒烟",
+  "impactLevel": 4,
+  "mechanism": "纤毛摆动功能恢复，排痰能力增强",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

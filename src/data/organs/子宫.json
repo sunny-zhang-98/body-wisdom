@@ -1,0 +1,18 @@
+{
+  "id": "子宫",
+  "name": "子宫（内膜）",
+  "systemId": "生殖系统",
+  "function": "孕育胎儿、产生月经",
+  "description": "位于盆腔中央的肌性器官，子宫内膜周期性脱落形成月经，受精卵在此着床发育成胎儿。",
+  "earlySymptoms": ["月经不调", "经量过多或过少", "痛经加重"],
+  "lateDiseases": ["子宫肌瘤", "子宫内膜异位症", "子宫腺肌症", "宫颈癌"],
+  "selfChecks": [],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "子宫功能正常，月经规律" },
+    { "level": 1, "label": "亚健康", "description": "偶有月经不调或轻度痛经" },
+    { "level": 2, "label": "早期损伤", "description": "月经不规律或子宫肌瘤" },
+    { "level": 3, "label": "中度损伤", "description": "子宫肌瘤增大或内膜异位" },
+    { "level": 4, "label": "重度损伤", "description": "严重内膜异位或肌瘤引起贫血" },
+    { "level": 5, "label": "衰竭", "description": "子宫恶性病变" }
+  ]
+}

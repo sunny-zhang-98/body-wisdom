@@ -1,0 +1,8 @@
+{
+  "id": "小肠-高纤维饮食",
+  "organId": "小肠",
+  "behaviorId": "高纤维饮食",
+  "impactLevel": 3,
+  "mechanism": "调节肠道菌群，改善消化吸收",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

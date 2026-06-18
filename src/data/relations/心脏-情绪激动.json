@@ -1,0 +1,8 @@
+{
+  "id": "心脏-情绪激动",
+  "organId": "心脏",
+  "behaviorId": "情绪激动",
+  "impactLevel": 5,
+  "mechanism": "突然的交感神经兴奋导致心率血压骤升，诱发心梗",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

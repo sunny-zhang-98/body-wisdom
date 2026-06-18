@@ -1,0 +1,27 @@
+{
+  "id": "脊髓",
+  "name": "脊髓",
+  "systemId": "神经系统",
+  "function": "传导神经信号、完成反射",
+  "description": "位于脊柱椎管内，是大脑与身体之间的信息高速公路，负责运动指令的下行和感觉信号的上传。",
+  "earlySymptoms": ["手脚发麻", "背部放射性疼痛", "下肢无力"],
+  "lateDiseases": ["脊髓损伤截瘫", "脊髓型颈椎病", "脊髓空洞症"],
+  "selfChecks": [
+    {
+      "title": "感觉对称测试",
+      "method": "用棉签或手指轻轻触碰身体两侧对称部位（如手背、小腿）",
+      "whatToObserve": "两侧感觉是否一致",
+      "normalResult": "两侧感觉相同",
+      "warningResult": "一侧明显感觉减退或异常，建议脊柱外科检查",
+      "note": "如已有严重症状不要做大幅度动作测试"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "感觉正常，运动指令传导通畅" },
+    { "level": 1, "label": "亚健康", "description": "偶有肢体麻木，功能正常" },
+    { "level": 2, "label": "早期损伤", "description": "持续性麻木或轻微力量下降" },
+    { "level": 3, "label": "中度损伤", "description": "肢体明显无力，行走困难" },
+    { "level": 4, "label": "重度损伤", "description": "瘫痪，大小便失禁" },
+    { "level": 5, "label": "衰竭", "description": "完全截瘫" }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "肾上腺-充足睡眠",
+  "organId": "肾上腺",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 4,
+  "mechanism": "降低皮质醇水平，恢复肾上腺功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

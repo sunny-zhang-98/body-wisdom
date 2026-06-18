@@ -1,0 +1,8 @@
+{
+  "id": "表皮-饮水量不足",
+  "organId": "表皮",
+  "behaviorId": "饮水量不足",
+  "impactLevel": 2,
+  "mechanism": "皮肤角质层含水量下降，屏障功能减弱",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

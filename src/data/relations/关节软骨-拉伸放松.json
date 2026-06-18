@@ -1,0 +1,8 @@
+{
+  "id": "关节软骨-拉伸放松",
+  "organId": "关节软骨",
+  "behaviorId": "拉伸放松",
+  "impactLevel": 2,
+  "mechanism": "促进关节液循环，为软骨提供营养",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "心脏-吸烟",
+  "organId": "心脏",
+  "behaviorId": "吸烟",
+  "impactLevel": 5,
+  "mechanism": "尼古丁导致心率加快、血管收缩，增加心肌耗氧",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

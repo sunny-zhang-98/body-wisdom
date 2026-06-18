@@ -1,0 +1,8 @@
+{
+  "id": "动脉-高盐饮食",
+  "organId": "动脉",
+  "behaviorId": "高盐饮食",
+  "impactLevel": 5,
+  "mechanism": "钠离子导致水钠潴留，血管平滑肌收缩，血压升高",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

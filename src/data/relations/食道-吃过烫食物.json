@@ -1,0 +1,8 @@
+{
+  "id": "食道-吃过烫食物",
+  "organId": "食道",
+  "behaviorId": "吃过烫食物",
+  "impactLevel": 5,
+  "mechanism": "反复热损伤导致食道上皮细胞异常增生，增加食管癌风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

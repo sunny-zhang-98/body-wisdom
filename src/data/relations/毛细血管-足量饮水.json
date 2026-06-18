@@ -1,0 +1,8 @@
+{
+  "id": "毛细血管-足量饮水",
+  "organId": "毛细血管",
+  "behaviorId": "足量饮水",
+  "impactLevel": 3,
+  "mechanism": "维持血容量和微循环灌注",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

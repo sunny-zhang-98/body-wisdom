@@ -1,0 +1,27 @@
+{
+  "id": "心脏",
+  "name": "心脏",
+  "systemId": "循环系统",
+  "function": "泵血，推动血液循环",
+  "description": "人体的发动机，每天跳动约10万次，将含氧血液泵送到全身各器官。",
+  "earlySymptoms": ["活动后心慌气短", "胸闷胸痛", "不明原因乏力"],
+  "lateDiseases": ["冠心病", "心力衰竭", "心肌梗死"],
+  "selfChecks": [
+    {
+      "title": "爬楼测试",
+      "method": "以正常速度连续爬3层楼（约60级台阶）",
+      "whatToObserve": "呼吸和心跳的反应",
+      "normalResult": "爬完后呼吸平稳，休息1-2分钟恢复",
+      "warningResult": "中途需要停下休息，或胸痛、极度气促",
+      "note": "如已确诊心脏病请根据医嘱运动"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "心功能正常，运动耐量好" },
+    { "level": 1, "label": "亚健康", "description": "偶有胸闷，轻度活动后气促" },
+    { "level": 2, "label": "早期损伤", "description": "心功能轻度下降，易疲劳" },
+    { "level": 3, "label": "中度损伤", "description": "心功能明显减退，日常活动受限" },
+    { "level": 4, "label": "重度损伤", "description": "心力衰竭，轻微活动即气喘" },
+    { "level": 5, "label": "衰竭", "description": "终末期心衰，需长期卧床" }
+  ]
+}

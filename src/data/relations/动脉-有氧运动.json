@@ -1,0 +1,8 @@
+{
+  "id": "动脉-有氧运动",
+  "organId": "动脉",
+  "behaviorId": "有氧运动",
+  "impactLevel": 4,
+  "mechanism": "增加血管弹性，降低血压，减缓动脉硬化",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

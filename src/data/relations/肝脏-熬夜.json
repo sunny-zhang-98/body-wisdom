@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-熬夜",
+  "organId": "肝脏",
+  "behaviorId": "熬夜",
+  "impactLevel": 4,
+  "mechanism": "扰乱肝脏解毒节律，影响脂肪代谢",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

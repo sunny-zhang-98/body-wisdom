@@ -1,0 +1,8 @@
+{
+  "id": "胰腺-过度饮酒",
+  "organId": "胰腺",
+  "behaviorId": "过度饮酒",
+  "impactLevel": 5,
+  "mechanism": "诱发急性胰腺炎，长期导致慢性胰腺炎",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

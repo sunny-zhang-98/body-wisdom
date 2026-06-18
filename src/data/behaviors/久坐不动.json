@@ -1,0 +1,8 @@
+{
+  "id": "久坐不动",
+  "name": "久坐不动",
+  "type": "harmful",
+  "description": "长时间保持坐姿，缺乏间断活动",
+  "quantificationNote": "连续坐>1小时即产生负面影响。每天坐>8小时且不运动的人，死亡风险比活跃者高60%",
+  "category": "习惯"
+}

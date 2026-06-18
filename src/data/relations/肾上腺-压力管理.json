@@ -1,0 +1,8 @@
+{
+  "id": "肾上腺-压力管理",
+  "organId": "肾上腺",
+  "behaviorId": "压力管理",
+  "impactLevel": 5,
+  "mechanism": "降低皮质醇水平，恢复肾上腺调节能力",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

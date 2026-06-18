@@ -1,0 +1,8 @@
+{
+  "id": "关节软骨-正确姿势",
+  "organId": "关节软骨",
+  "behaviorId": "正确姿势",
+  "impactLevel": 3,
+  "mechanism": "均匀分布关节压力，避免局部过度磨损",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

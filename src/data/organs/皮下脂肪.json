@@ -1,0 +1,27 @@
+{
+  "id": "皮下脂肪",
+  "name": "皮下脂肪",
+  "systemId": "被覆系统",
+  "function": "保温、储能、缓冲保护",
+  "description": "皮肤最深层的脂肪组织，既是能量储备库，也是绝缘保温层和机械缓冲垫。",
+  "earlySymptoms": ["腹部脂肪堆积", "体重增加", "体脂率升高"],
+  "lateDiseases": ["肥胖症", "脂肪代谢紊乱"],
+  "selfChecks": [
+    {
+      "title": "腰围测量",
+      "method": "站立位，在肚脐水平用软尺绕腹部一周，正常呼气末测量",
+      "whatToObserve": "腰围数值",
+      "normalResult": "男性<90cm，女性<85cm",
+      "warningResult": "超过正常值，提示中心性肥胖，增加代谢综合征风险",
+      "note": "测量时软尺贴合皮肤但不压迫"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "体脂率在健康范围" },
+    { "level": 1, "label": "亚健康", "description": "体脂偏高，无明显健康影响" },
+    { "level": 2, "label": "早期损伤", "description": "轻度肥胖（BMI>25）" },
+    { "level": 3, "label": "中度损伤", "description": "中度肥胖（BMI>30）" },
+    { "level": 4, "label": "重度损伤", "description": "重度肥胖（BMI>35）" },
+    { "level": 5, "label": "衰竭", "description": "病态肥胖（BMI>40）" }
+  ]
+}

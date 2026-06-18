@@ -1,0 +1,8 @@
+{
+  "id": "肺-吸烟",
+  "organId": "肺",
+  "behaviorId": "吸烟",
+  "impactLevel": 5,
+  "mechanism": "焦油和致癌物直接损伤肺泡，导致慢性炎症和癌变",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "控制饮酒",
+  "name": "控制饮酒",
+  "type": "beneficial",
+  "description": "限制酒精摄入或完全戒酒",
+  "quantificationNote": "最健康的选择是0。如饮用：男性≤25g/天（约2听啤酒），女性≤15g/天。超过此量显著增加肝损伤和癌症风险",
+  "category": "饮食"
+}

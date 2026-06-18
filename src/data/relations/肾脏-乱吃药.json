@@ -1,0 +1,8 @@
+{
+  "id": "肾脏-乱吃药",
+  "organId": "肾脏",
+  "behaviorId": "乱吃药",
+  "impactLevel": 5,
+  "mechanism": "药物及其代谢物在肾小管内浓缩造成肾毒性",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

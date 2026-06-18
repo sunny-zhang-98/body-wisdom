@@ -1,0 +1,8 @@
+{
+  "id": "心脏-低盐饮食",
+  "organId": "心脏",
+  "behaviorId": "低盐饮食",
+  "impactLevel": 4,
+  "mechanism": "减轻心脏负荷，降低心衰风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

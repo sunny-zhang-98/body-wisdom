@@ -1,0 +1,8 @@
+{
+  "id": "肝脏-充足睡眠",
+  "organId": "肝脏",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 4,
+  "mechanism": "夜间是肝脏解毒和修复的黄金时段",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

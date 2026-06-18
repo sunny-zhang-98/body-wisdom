@@ -1,0 +1,8 @@
+{
+  "id": "胰岛-高糖饮食",
+  "organId": "胰岛",
+  "behaviorId": "高糖饮食",
+  "impactLevel": 5,
+  "mechanism": "长期高血糖刺激胰岛β细胞过度分泌胰岛素，导致功能衰竭",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

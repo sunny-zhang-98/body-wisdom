@@ -1,0 +1,8 @@
+{
+  "id": "大脑-补充B族维生素",
+  "organId": "大脑",
+  "behaviorId": "补充B族维生素",
+  "impactLevel": 3,
+  "mechanism": "参与神经递质合成，维持认知功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

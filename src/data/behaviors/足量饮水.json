@@ -1,0 +1,8 @@
+{
+  "id": "足量饮水",
+  "name": "足量饮水",
+  "type": "beneficial",
+  "description": "适量、规律的饮水习惯",
+  "quantificationNote": "每天1.5-2L（约8杯），少量多次。短时间内大量饮水（>4L）可能导致水中毒",
+  "category": "饮食"
+}

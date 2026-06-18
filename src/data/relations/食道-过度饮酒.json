@@ -1,0 +1,8 @@
+{
+  "id": "食道-过度饮酒",
+  "organId": "食道",
+  "behaviorId": "过度饮酒",
+  "impactLevel": 4,
+  "mechanism": "反复刺激食道黏膜，增加食道癌风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "肾脏-高盐饮食",
+  "organId": "肾脏",
+  "behaviorId": "高盐饮食",
+  "impactLevel": 5,
+  "mechanism": "高钠加重肾小球滤过负担，加速肾功能衰退",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

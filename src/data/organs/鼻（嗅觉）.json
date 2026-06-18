@@ -1,0 +1,27 @@
+{
+  "id": "鼻（嗅觉）",
+  "name": "鼻（嗅觉上皮）",
+  "systemId": "感觉器官",
+  "function": "嗅觉——感知气味",
+  "description": "鼻腔顶部的嗅觉上皮含有嗅觉感受神经元，能识别数千种不同的气味分子。",
+  "earlySymptoms": ["嗅觉减退", "闻不到日常气味", "对气味敏感度下降"],
+  "lateDiseases": ["嗅觉丧失（失嗅症）", "嗅觉倒错"],
+  "selfChecks": [
+    {
+      "title": "嗅觉自检",
+      "method": "准备几样有明显气味的东西（如醋、酱油、咖啡、橘子皮），逐一闻并识别",
+      "whatToObserve": "能否准确识别",
+      "normalResult": "3种以上都能准确识别",
+      "warningResult": "识别困难或完全闻不到，建议耳鼻喉科就诊",
+      "note": "感冒或鼻炎时嗅觉会暂时下降，等康复后再测"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "嗅觉灵敏" },
+    { "level": 1, "label": "亚健康", "description": "嗅觉轻微下降" },
+    { "level": 2, "label": "早期损伤", "description": "嗅觉明显减退" },
+    { "level": 3, "label": "中度损伤", "description": "仅能闻到强烈气味" },
+    { "level": 4, "label": "重度损伤", "description": "几乎完全闻不到气味" },
+    { "level": 5, "label": "衰竭", "description": "完全失嗅" }
+  ]
+}

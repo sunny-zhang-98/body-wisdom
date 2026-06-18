@@ -1,0 +1,8 @@
+{
+  "id": "关节软骨-力量训练",
+  "organId": "关节软骨",
+  "behaviorId": "力量训练",
+  "impactLevel": 2,
+  "mechanism": "增强关节周围肌肉力量减轻软骨负荷，但需控制负重",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

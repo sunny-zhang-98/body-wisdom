@@ -1,0 +1,8 @@
+{
+  "id": "大脑-熬夜",
+  "organId": "大脑",
+  "behaviorId": "熬夜",
+  "impactLevel": 5,
+  "mechanism": "妨碍脑内代谢废物清除，增加认知障碍和神经退行性疾病风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

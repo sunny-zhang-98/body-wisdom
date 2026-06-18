@@ -1,0 +1,8 @@
+{
+  "id": "骨组织-缺乏运动",
+  "organId": "骨组织",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 4,
+  "mechanism": "缺乏机械应力刺激导致骨量流失",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

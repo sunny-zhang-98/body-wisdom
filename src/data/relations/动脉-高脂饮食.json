@@ -1,0 +1,8 @@
+{
+  "id": "动脉-高脂饮食",
+  "organId": "动脉",
+  "behaviorId": "高脂饮食",
+  "impactLevel": 5,
+  "mechanism": "低密度脂蛋白沉积血管壁，形成动脉粥样硬化斑块",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

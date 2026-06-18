@@ -1,0 +1,8 @@
+{
+  "id": "心脏-高脂饮食",
+  "organId": "心脏",
+  "behaviorId": "高脂饮食",
+  "impactLevel": 4,
+  "mechanism": "促进冠心病发展，增加心肌梗死风险",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

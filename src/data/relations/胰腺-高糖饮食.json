@@ -1,0 +1,8 @@
+{
+  "id": "胰腺-高糖饮食",
+  "organId": "胰腺",
+  "behaviorId": "高糖饮食",
+  "impactLevel": 3,
+  "mechanism": "增加的胰岛素需求给胰腺外分泌带来间接负担",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

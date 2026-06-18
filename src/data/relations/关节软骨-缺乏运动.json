@@ -1,0 +1,8 @@
+{
+  "id": "关节软骨-缺乏运动",
+  "organId": "关节软骨",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 2,
+  "mechanism": "关节液循环减少，软骨营养供应不足",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

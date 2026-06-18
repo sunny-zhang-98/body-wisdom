@@ -1,0 +1,27 @@
+{
+  "id": "筋膜",
+  "name": "筋膜",
+  "systemId": "浆膜与结缔组织",
+  "function": "包裹肌肉和器官，传递力量",
+  "description": "遍布全身的纤维结缔组织网，包裹和分隔肌肉、器官、神经和血管，保持结构稳定并传递力学信号。",
+  "earlySymptoms": ["肌肉僵硬", "活动时有牵拉感", "特定部位按压疼痛"],
+  "lateDiseases": ["筋膜炎（足底/背部）", "筋膜粘连", "肌筋膜疼痛综合征"],
+  "selfChecks": [
+    {
+      "title": "足底筋膜自检",
+      "method": "早晨起床下地第一步，感受足跟是否有刺痛",
+      "whatToObserve": "足跟疼痛情况",
+      "normalResult": "足底无痛，行走自如",
+      "warningResult": "晨起第一步足跟剧痛，走几步后缓解，提示足底筋膜炎",
+      "note": "如已确诊请遵医嘱治疗"
+    }
+  ],
+  "damageLevels": [
+    { "level": 0, "label": "健康", "description": "筋膜柔韧无粘连" },
+    { "level": 1, "label": "亚健康", "description": "局部轻微紧张" },
+    { "level": 2, "label": "早期损伤", "description": "筋膜局部粘连或炎症" },
+    { "level": 3, "label": "中度损伤", "description": "慢性筋膜炎" },
+    { "level": 4, "label": "重度损伤", "description": "广泛筋膜粘连，活动明显受限" },
+    { "level": 5, "label": "衰竭", "description": "严重肌筋膜疼痛综合征" }
+  ]
+}

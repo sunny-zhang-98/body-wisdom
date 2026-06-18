@@ -1,0 +1,8 @@
+{
+  "id": "大脑-控制饮酒",
+  "organId": "大脑",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 4,
+  "mechanism": "避免酒精神经毒性，保护认知功能",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

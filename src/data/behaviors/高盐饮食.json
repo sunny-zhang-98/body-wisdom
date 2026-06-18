@@ -1,0 +1,8 @@
+{
+  "id": "高盐饮食",
+  "name": "高盐饮食",
+  "type": "harmful",
+  "description": "摄入过量的钠盐",
+  "quantificationNote": "每日盐摄入>10g（约中国人平均量），高血压风险增加2倍。每减少1g盐，收缩压降低约1mmHg",
+  "category": "饮食"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "皮下脂肪-久坐不动",
+  "organId": "皮下脂肪",
+  "behaviorId": "久坐不动",
+  "impactLevel": 4,
+  "mechanism": "能量消耗减少，促进脂肪堆积",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}

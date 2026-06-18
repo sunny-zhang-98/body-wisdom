@@ -1,0 +1,8 @@
+{
+  "id": "骨组织-力量训练",
+  "organId": "骨组织",
+  "behaviorId": "力量训练",
+  "impactLevel": 5,
+  "mechanism": "机械负荷刺激骨形成，显著增加骨密度",
+  "bestForLevels": [0, 1, 2, 3, 4, 5]
+}
