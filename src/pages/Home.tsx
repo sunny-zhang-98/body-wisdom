@@ -75,7 +75,9 @@ export default function Home() {
 
       {/* Quick actions */}
       <div style={{ display: 'flex', gap: 8, marginBottom: 20 }}>
-        <button className="btn btn-primary btn-block" onClick={() => navigate('/self-check')}>
+        <button className="btn btn-primary btn-block" onClick={() => navigate('/self-check')}
+          style={{ flex: 1, textAlign: 'center' }}
+          >
           🩺 开始自检
         </button>
         {assessedCount > 0 && (
