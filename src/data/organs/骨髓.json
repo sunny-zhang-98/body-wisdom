@@ -4,15 +4,56 @@
   "systemId": "免疫与淋巴系统",
   "function": "造血——产生红细胞、白细胞和血小板",
   "description": "位于骨腔中的造血组织，是人体所有血液细胞的发源地，干细胞在此分化成红细胞、各种白细胞和血小板。",
-  "earlySymptoms": ["贫血", "反复感染", "容易出血瘀青"],
-  "lateDiseases": ["再生障碍性贫血", "骨髓增生异常综合征", "白血病"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "贫血",
+    "反复感染",
+    "容易出血瘀青"
+  ],
+  "lateDiseases": [
+    "再生障碍性贫血",
+    "骨髓增生异常综合征",
+    "白血病"
+  ],
+  "selfChecks": [
+    {
+      "title": "造血功能初步自查",
+      "method": "观察近期是否有以下表现：面色苍白/指甲苍白、活动后心慌气短、身上不明原因瘀青、牙龈或小伤口出血不止",
+      "whatToObserve": "贫血和出血倾向的体征",
+      "normalResult": "面色红润，无异常瘀青或出血",
+      "warningResult": "出现面色苍白+容易瘀青+乏力中的2项以上，建议查血常规",
+      "note": "血常规是评估骨髓造血功能最直接的检查"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "造血功能正常" },
-    { "level": 1, "label": "亚健康", "description": "轻度血细胞偏低" },
-    { "level": 2, "label": "早期损伤", "description": "中度贫血或白细胞减少" },
-    { "level": 3, "label": "中度损伤", "description": "造血功能明显减退" },
-    { "level": 4, "label": "重度损伤", "description": "严重造血障碍" },
-    { "level": 5, "label": "衰竭", "description": "造血功能衰竭" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "造血功能正常"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "轻度血细胞偏低"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "中度贫血或白细胞减少"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "造血功能明显减退"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "严重造血障碍"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "造血功能衰竭"
+    }
   ]
 }

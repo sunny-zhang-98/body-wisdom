@@ -4,15 +4,56 @@
   "systemId": "感觉器官",
   "function": "味觉、辅助吞咽和发音",
   "description": "舌表面布满了含有味蕾的乳头状结构，能辨别酸、甜、苦、咸、鲜五种基本味道。",
-  "earlySymptoms": ["味觉变迟钝", "口腔异味", "舌苔厚腻"],
-  "lateDiseases": ["味觉丧失", "舌炎", "灼口综合征"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "味觉变迟钝",
+    "口腔异味",
+    "舌苔厚腻"
+  ],
+  "lateDiseases": [
+    "味觉丧失",
+    "舌炎",
+    "灼口综合征"
+  ],
+  "selfChecks": [
+    {
+      "title": "味觉敏感性测试",
+      "method": "准备少量糖水（甜）、盐水（咸）、柠檬汁（酸）、苦瓜汁（苦），分别蘸取少量放在舌面不同区域",
+      "whatToObserve": "能否准确辨别四种基本味道",
+      "normalResult": "能清晰辨别四种味道且感受灵敏",
+      "warningResult": "对多种味道感知迟钝或完全无法辨别",
+      "note": "测试前1小时勿吸烟、喝咖啡，用清水漱口后测试"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "味觉敏锐" },
-    { "level": 1, "label": "亚健康", "description": "味觉轻度下降" },
-    { "level": 2, "label": "早期损伤", "description": "味觉明显减退" },
-    { "level": 3, "label": "中度损伤", "description": "仅能辨别强烈味道" },
-    { "level": 4, "label": "重度损伤", "description": "味觉严重受损" },
-    { "level": 5, "label": "衰竭", "description": "完全丧失味觉" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "味觉敏锐"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "味觉轻度下降"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "味觉明显减退"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "仅能辨别强烈味道"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "味觉严重受损"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "完全丧失味觉"
+    }
   ]
 }

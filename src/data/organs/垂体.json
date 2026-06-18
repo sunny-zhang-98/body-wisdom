@@ -4,15 +4,56 @@
   "systemId": "内分泌系统",
   "function": "分泌多种激素调控其他内分泌腺",
   "description": "位于大脑底部豌豆大小的腺体，被称为「内分泌之王」，分泌生长激素、促甲状腺激素等多种激素调控全身内分泌。",
-  "earlySymptoms": ["不明原因头痛", "视力模糊（视野缺损）", "生长异常或性功能减退"],
-  "lateDiseases": ["垂体瘤", "垂体功能减退症", "肢端肥大症"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "不明原因头痛",
+    "视力模糊（视野缺损）",
+    "生长异常或性功能减退"
+  ],
+  "lateDiseases": [
+    "垂体瘤",
+    "垂体功能减退症",
+    "肢端肥大症"
+  ],
+  "selfChecks": [
+    {
+      "title": "垂体功能症状自评",
+      "method": "回顾近3个月是否出现：不明原因头痛、视野变窄、手脚大小变化、性欲明显下降、女性月经稀发",
+      "whatToObserve": "上述症状的出现数量和程度",
+      "normalResult": "无任何上述症状",
+      "warningResult": "出现2项或以上症状，建议内分泌科检查",
+      "note": "垂体位于颅内深处，难以直接检测，上述症状为重要参考信号"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "垂体功能正常，激素平衡" },
-    { "level": 1, "label": "亚健康", "description": "轻微激素波动，无明显症状" },
-    { "level": 2, "label": "早期损伤", "description": "轻度垂体功能异常" },
-    { "level": 3, "label": "中度损伤", "description": "垂体功能减退或小腺瘤" },
-    { "level": 4, "label": "重度损伤", "description": "垂体大腺瘤或严重功能减退" },
-    { "level": 5, "label": "衰竭", "description": "垂体功能衰竭" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "垂体功能正常，激素平衡"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "轻微激素波动，无明显症状"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "轻度垂体功能异常"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "垂体功能减退或小腺瘤"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "垂体大腺瘤或严重功能减退"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "垂体功能衰竭"
+    }
   ]
 }

@@ -20,6 +20,23 @@ export function appReducer(state: AppState, action: AppAction): AppState {
       }
     case 'RESET_ASSESSMENTS':
       return { ...state, assessments: {} }
+    case 'SET_SELF_CHECK_RESULT':
+      if (action.result === 'untested') {
+        const { [action.key]: _, ...rest } = state.selfCheckResults
+        return { ...state, selfCheckResults: rest }
+      }
+      return {
+        ...state,
+        selfCheckResults: {
+          ...state.selfCheckResults,
+          [action.key]: {
+            result: action.result,
+            updatedAt: new Date().toISOString(),
+          },
+        },
+      }
+    case 'RESET_SELF_CHECKS':
+      return { ...state, selfCheckResults: {} }
     case 'SET_THEME':
       return { ...state, theme: action.theme }
     default:

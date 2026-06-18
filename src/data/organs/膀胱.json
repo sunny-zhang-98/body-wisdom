@@ -4,15 +4,56 @@
   "systemId": "泌尿系统",
   "function": "储存尿液、适时排尿",
   "description": "位于盆腔的囊状器官，由平滑肌构成，正常情况下可储存约300-500ml尿液。",
-  "earlySymptoms": ["尿频尿急", "夜尿增多", "排尿不尽感"],
-  "lateDiseases": ["膀胱炎", "膀胱结石", "膀胱癌"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "尿频尿急",
+    "夜尿增多",
+    "排尿不尽感"
+  ],
+  "lateDiseases": [
+    "膀胱炎",
+    "膀胱结石",
+    "膀胱癌"
+  ],
+  "selfChecks": [
+    {
+      "title": "排尿日志自测",
+      "method": "连续3天记录：白天排尿间隔时间、夜尿次数、每次尿量感觉",
+      "whatToObserve": "排尿频率和夜尿次数",
+      "normalResult": "白天排尿4-6次，夜尿0-1次，排尿顺畅",
+      "warningResult": "白天排尿>8次或夜尿≥2次，或排尿费力",
+      "note": "测试前1小时正常饮水，不要刻意憋尿或少喝水"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "膀胱功能正常" },
-    { "level": 1, "label": "亚健康", "description": "偶有尿频" },
-    { "level": 2, "label": "早期损伤", "description": "经常尿频或尿急" },
-    { "level": 3, "label": "中度损伤", "description": "膀胱炎反复发作" },
-    { "level": 4, "label": "重度损伤", "description": "膀胱容量严重减少或出血" },
-    { "level": 5, "label": "衰竭", "description": "膀胱功能丧失" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "膀胱功能正常"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "偶有尿频"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "经常尿频或尿急"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "膀胱炎反复发作"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "膀胱容量严重减少或出血"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "膀胱功能丧失"
+    }
   ]
 }

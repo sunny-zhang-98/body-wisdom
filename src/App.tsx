@@ -7,6 +7,7 @@ import OrganDetail from './pages/OrganDetail'
 import Behaviors from './pages/Behaviors'
 import BehaviorDetail from './pages/BehaviorDetail'
 import Assessment from './pages/Assessment'
+import SelfCheck from './pages/SelfCheck'
 import Recommendations from './pages/Recommendations'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/behaviors" element={<Behaviors />} />
         <Route path="/behaviors/:behaviorId" element={<BehaviorDetail />} />
         <Route path="/assessment" element={<Assessment />} />
+        <Route path="/self-check" element={<SelfCheck />} />
         <Route path="/recommendations" element={<Recommendations />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>

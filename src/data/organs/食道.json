@@ -4,15 +4,56 @@
   "systemId": "消化系统",
   "function": "将食物输送至胃",
   "description": "连接咽喉和胃的肌肉管道，通过蠕动将食物向下推送，下括约肌防止胃酸反流。",
-  "earlySymptoms": ["反酸烧心", "吞咽时有异物感", "胸骨后不适"],
-  "lateDiseases": ["反流性食管炎", "食管狭窄", "食管癌"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "反酸烧心",
+    "吞咽时有异物感",
+    "胸骨后不适"
+  ],
+  "lateDiseases": [
+    "反流性食管炎",
+    "食管狭窄",
+    "食管癌"
+  ],
+  "selfChecks": [
+    {
+      "title": "胃食管反流自测",
+      "method": "饭后2小时内观察：是否有反酸、烧心（胸骨后灼热感）、打嗝、口中反酸水",
+      "whatToObserve": "饭后和躺下时反流症状",
+      "normalResult": "基本无反酸烧心，偶尔在暴食后有轻微不适",
+      "warningResult": "每周≥2次反酸烧心，或夜间因反流醒来",
+      "note": "测试前避免辛辣、油腻食物及咖啡，保持正常饮食"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "食管功能正常，无反流" },
-    { "level": 1, "label": "亚健康", "description": "偶有反酸或烧心" },
-    { "level": 2, "label": "早期损伤", "description": "经常反酸烧心" },
-    { "level": 3, "label": "中度损伤", "description": "反流性食管炎" },
-    { "level": 4, "label": "重度损伤", "description": "食管狭窄或巴雷特食管" },
-    { "level": 5, "label": "衰竭", "description": "食管严重病变" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "食管功能正常，无反流"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "偶有反酸或烧心"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "经常反酸烧心"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "反流性食管炎"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "食管狭窄或巴雷特食管"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "食管严重病变"
+    }
   ]
 }

@@ -58,14 +58,22 @@ export interface OrganAssessment {
   updatedAt: string
 }
 
+export interface SelfCheckResult {
+  result: 'normal' | 'warning' | 'untested'
+  updatedAt: string
+}
+
 export interface AppState {
   assessments: Record<string, OrganAssessment>
+  selfCheckResults: Record<string, SelfCheckResult>
   theme: 'light' | 'dark'
 }
 
 export type AppAction =
   | { type: 'SET_ASSESSMENT'; organId: string; level: number }
   | { type: 'RESET_ASSESSMENTS' }
+  | { type: 'SET_SELF_CHECK_RESULT'; key: string; result: 'normal' | 'warning' | 'untested' }
+  | { type: 'RESET_SELF_CHECKS' }
   | { type: 'SET_THEME'; theme: 'light' | 'dark' }
 
 export interface Recommendation {

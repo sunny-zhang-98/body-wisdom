@@ -4,15 +4,57 @@
   "systemId": "被覆系统",
   "function": "保护末端、提示健康状况",
   "description": "皮肤的附属结构，头发保护头皮和调节体温，指甲保护指端，同时也是全身营养状况的窗口。",
-  "earlySymptoms": ["头发干枯", "大量脱发", "指甲脆裂", "指甲横纹"],
-  "lateDiseases": ["斑秃（鬼剃头）", "雄激素性脱发", "甲癣（灰指甲）"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "头发干枯",
+    "大量脱发",
+    "指甲脆裂",
+    "指甲横纹"
+  ],
+  "lateDiseases": [
+    "斑秃（鬼剃头）",
+    "雄激素性脱发",
+    "甲癣（灰指甲）"
+  ],
+  "selfChecks": [
+    {
+      "title": "毛发指甲外观检查",
+      "method": "在自然光下观察：头发光泽度和脱落量（收集枕头/梳子上的落发）、指甲表面和颜色",
+      "whatToObserve": "头发密度、光泽，指甲平滑度、颜色",
+      "normalResult": "头发有光泽，日脱落<100根，指甲光滑红润",
+      "warningResult": "头发明显稀疏或成片脱落，指甲有横沟/凹陷/变色",
+      "note": "季节性脱发（秋冬）通常为正常，持续3个月以上需关注"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "毛发乌黑有光泽，指甲坚韧" },
-    { "level": 1, "label": "亚健康", "description": "少量脱发或指甲轻度脆裂" },
-    { "level": 2, "label": "早期损伤", "description": "明显脱发或指甲病变" },
-    { "level": 3, "label": "中度损伤", "description": "持续大量脱发或灰指甲" },
-    { "level": 4, "label": "重度损伤", "description": "严重脱发或甲板严重损坏" },
-    { "level": 5, "label": "衰竭", "description": "永久性秃发或指甲严重病变" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "毛发乌黑有光泽，指甲坚韧"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "少量脱发或指甲轻度脆裂"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "明显脱发或指甲病变"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "持续大量脱发或灰指甲"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "严重脱发或甲板严重损坏"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "永久性秃发或指甲严重病变"
+    }
   ]
 }

@@ -1,6 +1,7 @@
-import type { OrganAssessment, AppState } from '../types'
+import type { OrganAssessment, SelfCheckResult, AppState } from '../types'
 
 const STORAGE_KEY = 'body-wisdom-state'
+const SELF_CHECK_KEY = 'body-wisdom-selfchecks'
 const THEME_KEY = 'body-wisdom-theme'
 
 export function loadAssessments(): Record<string, OrganAssessment> {
@@ -29,6 +30,32 @@ export function clearAssessments() {
   }
 }
 
+export function loadSelfCheckResults(): Record<string, SelfCheckResult> {
+  try {
+    const raw = localStorage.getItem(SELF_CHECK_KEY)
+    if (!raw) return {}
+    return JSON.parse(raw) as Record<string, SelfCheckResult>
+  } catch {
+    return {}
+  }
+}
+
+export function saveSelfCheckResults(results: Record<string, SelfCheckResult>) {
+  try {
+    localStorage.setItem(SELF_CHECK_KEY, JSON.stringify(results))
+  } catch {
+    // storage full or unavailable
+  }
+}
+
+export function clearSelfCheckResults() {
+  try {
+    localStorage.removeItem(SELF_CHECK_KEY)
+  } catch {
+    // ignore
+  }
+}
+
 export function loadTheme(): 'light' | 'dark' {
   const saved = localStorage.getItem(THEME_KEY)
   if (saved === 'light' || saved === 'dark') return saved
@@ -47,6 +74,7 @@ export function applyTheme(theme: 'light' | 'dark') {
 export function loadState(): AppState {
   return {
     assessments: loadAssessments(),
+    selfCheckResults: loadSelfCheckResults(),
     theme: loadTheme(),
   }
 }

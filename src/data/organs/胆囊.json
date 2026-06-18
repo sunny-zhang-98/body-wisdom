@@ -4,15 +4,56 @@
   "systemId": "消化系统",
   "function": "储存和浓缩胆汁",
   "description": "位于肝脏下方的梨形小囊，储存肝脏分泌的胆汁，进食时收缩将胆汁排入肠道帮助脂肪消化。",
-  "earlySymptoms": ["饭后上腹胀痛", "油腻食物后不适", "右肩放射性疼痛"],
-  "lateDiseases": ["胆囊炎", "胆囊结石", "胆囊息肉"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "饭后上腹胀痛",
+    "油腻食物后不适",
+    "右肩放射性疼痛"
+  ],
+  "lateDiseases": [
+    "胆囊炎",
+    "胆囊结石",
+    "胆囊息肉"
+  ],
+  "selfChecks": [
+    {
+      "title": "脂肪餐耐受测试",
+      "method": "正常进食一餐含适量油脂的食物（如炒菜、煎蛋），观察饭后2小时内的腹部感受",
+      "whatToObserve": "饭后右上腹是否有胀痛或不适",
+      "normalResult": "饭后无不适感",
+      "warningResult": "饭后右上腹胀痛、隐痛或不适，尤其向右肩放射",
+      "note": "如已确诊胆囊疾病请勿刻意高脂饮食测试"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "胆囊功能正常，无结石" },
-    { "level": 1, "label": "亚健康", "description": "偶有饭后腹胀" },
-    { "level": 2, "label": "早期损伤", "description": "有泥沙样结石，无明显症状" },
-    { "level": 3, "label": "中度损伤", "description": "胆囊结石伴慢性胆囊炎" },
-    { "level": 4, "label": "重度损伤", "description": "急性胆囊炎或胆总管结石" },
-    { "level": 5, "label": "衰竭", "description": "胆囊穿孔或癌变" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "胆囊功能正常，无结石"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "偶有饭后腹胀"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "有泥沙样结石，无明显症状"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "胆囊结石伴慢性胆囊炎"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "急性胆囊炎或胆总管结石"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "胆囊穿孔或癌变"
+    }
   ]
 }

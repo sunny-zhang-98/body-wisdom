@@ -4,15 +4,56 @@
   "systemId": "消化系统",
   "function": "吸收绝大部分营养物质",
   "description": "消化吸收的主要场所，全长约5-7米，内壁布满绒毛和微绒毛，极大增加了吸收面积。",
-  "earlySymptoms": ["饭后腹胀", "腹泻或便秘交替", "排气增多"],
-  "lateDiseases": ["肠易激综合征", "克罗恩病", "小肠吸收不良综合征"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "饭后腹胀",
+    "腹泻或便秘交替",
+    "排气增多"
+  ],
+  "lateDiseases": [
+    "肠易激综合征",
+    "克罗恩病",
+    "小肠吸收不良综合征"
+  ],
+  "selfChecks": [
+    {
+      "title": "消化吸收观察",
+      "method": "观察日常饮食后排便情况：大便性状（是否成型）、是否有未消化食物残渣、排气频率和气味",
+      "whatToObserve": "排便性状和消化程度",
+      "normalResult": "大便成形（香蕉状），偶有食物残渣，排气正常",
+      "warningResult": "持续腹泻或脂肪泻（大便漂浮油腻），或严重腹胀",
+      "note": "进食高纤维食物（玉米、金针菇）后见少量残渣属正常"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "消化吸收功能正常" },
-    { "level": 1, "label": "亚健康", "description": "偶有腹胀或大便不规律" },
-    { "level": 2, "label": "早期损伤", "description": "经常消化不良" },
-    { "level": 3, "label": "中度损伤", "description": "慢性肠炎或肠易激" },
-    { "level": 4, "label": "重度损伤", "description": "严重吸收不良或炎症性肠病" },
-    { "level": 5, "label": "衰竭", "description": "肠功能衰竭" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "消化吸收功能正常"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "偶有腹胀或大便不规律"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "经常消化不良"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "慢性肠炎或肠易激"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "严重吸收不良或炎症性肠病"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "肠功能衰竭"
+    }
   ]
 }

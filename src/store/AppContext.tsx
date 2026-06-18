@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer, useEffect, type ReactNode } from 'react'
 import type { AppState, AppAction } from '../types'
 import { appReducer, getInitialState } from './reducer'
-import { saveAssessments, saveTheme, applyTheme } from '../utils/storage'
+import { saveAssessments, saveSelfCheckResults, saveTheme, applyTheme } from '../utils/storage'
 
 interface AppContextValue {
   state: AppState
@@ -17,6 +17,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     saveAssessments(state.assessments)
   }, [state.assessments])
+
+  // persist self-check results on change
+  useEffect(() => {
+    saveSelfCheckResults(state.selfCheckResults)
+  }, [state.selfCheckResults])
 
   // persist + apply theme on change
   useEffect(() => {

@@ -4,15 +4,57 @@
   "systemId": "循环系统",
   "function": "运输氧气、营养、免疫防御",
   "description": "由红细胞、白细胞、血小板和血浆组成，负责运输氧气和养分、免疫功能、凝血止血。",
-  "earlySymptoms": ["面色苍白", "容易疲劳", "头晕耳鸣", "稍微活动就心慌"],
-  "lateDiseases": ["贫血", "白血病", "凝血功能障碍"],
-  "selfChecks": [],
+  "earlySymptoms": [
+    "面色苍白",
+    "容易疲劳",
+    "头晕耳鸣",
+    "稍微活动就心慌"
+  ],
+  "lateDiseases": [
+    "贫血",
+    "白血病",
+    "凝血功能障碍"
+  ],
+  "selfChecks": [
+    {
+      "title": "贫血自查三联征",
+      "method": "观察：①翻开下眼睑看是否苍白 ②指甲按压后回色速度 ③舌苔颜色和舌面状态",
+      "whatToObserve": "面色、眼睑、指甲和舌的颜色",
+      "normalResult": "眼睑红润、指甲有血色、舌面淡红",
+      "warningResult": "眼睑苍白+指甲苍白+面色萎黄，同时伴有头晕乏力",
+      "note": "女性因月经原因更易贫血，如出现上述症状建议查血常规"
+    }
+  ],
   "damageLevels": [
-    { "level": 0, "label": "健康", "description": "血常规指标正常" },
-    { "level": 1, "label": "亚健康", "description": "轻度贫血或血脂偏高" },
-    { "level": 2, "label": "早期损伤", "description": "中度贫血或血液黏稠度高" },
-    { "level": 3, "label": "中度损伤", "description": "严重贫血或白细胞异常" },
-    { "level": 4, "label": "重度损伤", "description": "血液系统严重异常" },
-    { "level": 5, "label": "衰竭", "description": "造血功能衰竭" }
+    {
+      "level": 0,
+      "label": "健康",
+      "description": "血常规指标正常"
+    },
+    {
+      "level": 1,
+      "label": "亚健康",
+      "description": "轻度贫血或血脂偏高"
+    },
+    {
+      "level": 2,
+      "label": "早期损伤",
+      "description": "中度贫血或血液黏稠度高"
+    },
+    {
+      "level": 3,
+      "label": "中度损伤",
+      "description": "严重贫血或白细胞异常"
+    },
+    {
+      "level": 4,
+      "label": "重度损伤",
+      "description": "血液系统严重异常"
+    },
+    {
+      "level": 5,
+      "label": "衰竭",
+      "description": "造血功能衰竭"
+    }
   ]
 }

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 const navItems = [
   { to: '/', label: '首页', icon: '🏠' },
   { to: '/systems', label: '系统', icon: '📋' },
+  { to: '/self-check', label: '自检', icon: '🩺' },
   { to: '/behaviors', label: '行为', icon: '🏃' },
   { to: '/assessment', label: '评估', icon: '📊' },
   { to: '/recommendations', label: '推荐', icon: '💡' },
