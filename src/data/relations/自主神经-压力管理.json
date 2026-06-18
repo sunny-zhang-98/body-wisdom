@@ -1,0 +1,15 @@
+{
+  "id": "自主神经-压力管理",
+  "organId": "自主神经",
+  "behaviorId": "压力管理",
+  "impactLevel": 5,
+  "mechanism": "降低皮质醇水平，促进交感/副交感恢复平衡，提升心率变异性",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

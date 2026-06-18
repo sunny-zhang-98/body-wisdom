@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-有氧运动",
+  "organId": "脊柱",
+  "behaviorId": "有氧运动",
+  "impactLevel": 2,
+  "mechanism": "促进椎间盘营养弥散，改善脊柱周围血液循环和组织代谢",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

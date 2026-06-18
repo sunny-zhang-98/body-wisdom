@@ -1,0 +1,15 @@
+{
+  "id": "自主神经-冥想正念",
+  "organId": "自主神经",
+  "behaviorId": "冥想正念",
+  "impactLevel": 4,
+  "mechanism": "增强前额叶对杏仁核和交感中枢的调控能力，改善自主神经平衡",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

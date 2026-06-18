@@ -1,0 +1,15 @@
+{
+  "id": "自主神经-充足睡眠",
+  "organId": "自主神经",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 4,
+  "mechanism": "睡眠期间副交感神经占主导，促进自主神经节律恢复和平衡调节",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

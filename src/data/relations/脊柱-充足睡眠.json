@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-充足睡眠",
+  "organId": "脊柱",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 2,
+  "mechanism": "仰卧时椎间盘静水压最低，利于水分回吸收和营养修复",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

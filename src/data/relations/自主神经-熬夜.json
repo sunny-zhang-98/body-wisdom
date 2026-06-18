@@ -1,0 +1,15 @@
+{
+  "id": "自主神经-熬夜",
+  "organId": "自主神经",
+  "behaviorId": "熬夜",
+  "impactLevel": 4,
+  "mechanism": "昼夜节律紊乱导致交感/副交感切换功能障碍，降低副交感夜间主导地位",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

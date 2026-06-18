@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-冥想正念",
+  "organId": "心理状态",
+  "behaviorId": "冥想正念",
+  "impactLevel": 5,
+  "mechanism": "重塑前额叶-杏仁核功能连接，改善情绪调节能力和注意力",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

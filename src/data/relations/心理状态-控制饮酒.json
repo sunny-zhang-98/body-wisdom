@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-控制饮酒",
+  "organId": "心理状态",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 2,
+  "mechanism": "减少酒精对神经递质系统（5-HT、GABA、多巴胺）的干扰",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

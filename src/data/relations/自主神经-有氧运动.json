@@ -1,0 +1,15 @@
+{
+  "id": "自主神经-有氧运动",
+  "organId": "自主神经",
+  "behaviorId": "有氧运动",
+  "impactLevel": 4,
+  "mechanism": "规律运动改善心率变异性（HRV），增强自主神经对心血管的调节能力",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

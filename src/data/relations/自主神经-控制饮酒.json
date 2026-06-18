@@ -1,0 +1,15 @@
+{
+  "id": "自主神经-控制饮酒",
+  "organId": "自主神经",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 2,
+  "mechanism": "减少酒精对自主神经的直接毒性，有利于神经功能恢复",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

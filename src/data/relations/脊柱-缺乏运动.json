@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-缺乏运动",
+  "organId": "脊柱",
+  "behaviorId": "缺乏运动",
+  "impactLevel": 3,
+  "mechanism": "核心肌群和背部肌肉萎缩导致脊柱稳定性下降",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

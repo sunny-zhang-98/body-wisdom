@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-压力管理",
+  "organId": "心理状态",
+  "behaviorId": "压力管理",
+  "impactLevel": 5,
+  "mechanism": "增强应对机制，减少应激对心理健康的负面影响，预防burnout",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

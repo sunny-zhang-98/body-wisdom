@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-社交活动",
+  "organId": "心理状态",
+  "behaviorId": "社交活动",
+  "impactLevel": 4,
+  "mechanism": "提供社会支持缓冲应激负面影响，激活奖赏系统提升积极情绪",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

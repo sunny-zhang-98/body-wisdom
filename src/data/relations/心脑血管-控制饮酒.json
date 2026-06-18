@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-控制饮酒",
+  "organId": "心脑血管",
+  "behaviorId": "控制饮酒",
+  "impactLevel": 3,
+  "mechanism": "适量饮酒（≤1标准杯/天）有一定心血管保护作用的J形曲线效应",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

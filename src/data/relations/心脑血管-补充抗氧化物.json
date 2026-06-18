@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-补充抗氧化物",
+  "organId": "心脑血管",
+  "behaviorId": "补充抗氧化物",
+  "impactLevel": 2,
+  "mechanism": "减少LDL氧化修饰，延缓动脉粥样硬化早期进展",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

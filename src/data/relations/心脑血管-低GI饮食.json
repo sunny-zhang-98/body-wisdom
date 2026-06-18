@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-低GI饮食",
+  "organId": "心脑血管",
+  "behaviorId": "低GI饮食",
+  "impactLevel": 3,
+  "mechanism": "稳定血糖减少血管内皮氧化损伤和糖基化反应",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-拉伸放松",
+  "organId": "脊柱",
+  "behaviorId": "拉伸放松",
+  "impactLevel": 4,
+  "mechanism": "缓解肌肉痉挛和筋膜紧张，改善脊柱活动度和局部血液循环",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

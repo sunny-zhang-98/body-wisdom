@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-情绪激动",
+  "organId": "心理状态",
+  "behaviorId": "情绪激动",
+  "impactLevel": 3,
+  "mechanism": "反复情绪波动强化负性情绪记忆和反应模式，降低情绪调节韧性",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

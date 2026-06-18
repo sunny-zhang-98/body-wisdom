@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-充足睡眠",
+  "organId": "心理状态",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 4,
+  "mechanism": "睡眠不足直接导致情绪调节前额叶功能下降，增加负性情绪偏向",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

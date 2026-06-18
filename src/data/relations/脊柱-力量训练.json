@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-力量训练",
+  "organId": "脊柱",
+  "behaviorId": "力量训练",
+  "impactLevel": 4,
+  "mechanism": "增强核心肌群和背部伸肌，为脊柱提供主动支撑，减少椎间盘负荷",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

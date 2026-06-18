@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-有氧运动",
+  "organId": "心脑血管",
+  "behaviorId": "有氧运动",
+  "impactLevel": 5,
+  "mechanism": "增强侧支循环形成，改善血管内皮功能，降低LDL氧化和斑块进展",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

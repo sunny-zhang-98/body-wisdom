@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-规律作息",
+  "organId": "心理状态",
+  "behaviorId": "规律作息",
+  "impactLevel": 3,
+  "mechanism": "稳定的生活节律为心理恢复提供可预测的基础，减少情绪波动",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

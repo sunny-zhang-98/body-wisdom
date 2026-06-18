@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-情绪激动",
+  "organId": "心脑血管",
+  "behaviorId": "情绪激动",
+  "impactLevel": 3,
+  "mechanism": "突发交感风暴可诱发斑块破裂致急性心梗或脑梗（生气心痛）",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

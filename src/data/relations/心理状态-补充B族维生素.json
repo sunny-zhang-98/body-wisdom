@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-补充B族维生素",
+  "organId": "心理状态",
+  "behaviorId": "补充B族维生素",
+  "impactLevel": 2,
+  "mechanism": "B族维生素是神经递质合成（5-羟色胺、GABA、多巴胺）的必要辅酶",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

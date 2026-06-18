@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-压力管理",
+  "organId": "心脑血管",
+  "behaviorId": "压力管理",
+  "impactLevel": 3,
+  "mechanism": "降低交感神经张力、改善血压变异性，减少压力相关的血管损伤",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

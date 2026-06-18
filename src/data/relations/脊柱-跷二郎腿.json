@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-跷二郎腿",
+  "organId": "脊柱",
+  "behaviorId": "跷二郎腿",
+  "impactLevel": 3,
+  "mechanism": "骨盆倾斜导致脊柱代偿性侧弯、腰骶部受力不均",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

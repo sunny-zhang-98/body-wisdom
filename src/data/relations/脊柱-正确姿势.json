@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-正确姿势",
+  "organId": "脊柱",
+  "behaviorId": "正确姿势",
+  "impactLevel": 5,
+  "mechanism": "维持脊柱自然生理曲度，均匀分布椎间盘压力，防止纤维环局部过度受力",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-充足睡眠",
+  "organId": "心脑血管",
+  "behaviorId": "充足睡眠",
+  "impactLevel": 3,
+  "mechanism": "睡眠不足（<6小时）与高血压和冠状动脉钙化独立相关",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

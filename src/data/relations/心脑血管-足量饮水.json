@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-足量饮水",
+  "organId": "心脑血管",
+  "behaviorId": "足量饮水",
+  "impactLevel": 2,
+  "mechanism": "维持正常血容量和血液粘稠度，减少血栓形成风险",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

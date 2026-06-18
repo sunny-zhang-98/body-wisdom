@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-长期压力",
+  "organId": "心理状态",
+  "behaviorId": "长期压力",
+  "impactLevel": 5,
+  "mechanism": "皮质醇持续升高损伤海马神经元，降低情绪调节和心理韧性",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

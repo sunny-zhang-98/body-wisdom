@@ -1,0 +1,15 @@
+{
+  "id": "脊柱-久坐不动",
+  "organId": "脊柱",
+  "behaviorId": "久坐不动",
+  "impactLevel": 4,
+  "mechanism": "持续静压力导致椎间盘营养供应障碍、后部纤维环疲劳累积",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

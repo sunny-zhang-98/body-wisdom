@@ -1,0 +1,15 @@
+{
+  "id": "心理状态-有氧运动",
+  "organId": "心理状态",
+  "behaviorId": "有氧运动",
+  "impactLevel": 5,
+  "mechanism": "促进BDNF分泌和内啡肽释放，具有与SSRI药物等效的抗抑郁效果",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

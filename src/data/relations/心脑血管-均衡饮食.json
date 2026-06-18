@@ -1,0 +1,15 @@
+{
+  "id": "心脑血管-均衡饮食",
+  "organId": "心脑血管",
+  "behaviorId": "均衡饮食",
+  "impactLevel": 3,
+  "mechanism": "地中海饮食等均衡膳食模式可降低全因心血管风险约30%",
+  "bestForLevels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}
